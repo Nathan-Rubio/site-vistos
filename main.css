@@ -36,7 +36,7 @@
   margin-bottom: 0;
   padding-left: 0;
   height: 180px;
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: var(--principal);
 }
@@ -56,8 +56,12 @@
 /* CONTEUDO MAIN */
 
 .main {
-  /* altura nav + altura nav-menu + altura extra */
-  margin-top: calc(100px + 180px + 20px);
+  /* 
+  MENU ABERTO: altura nav + altura nav-menu + altura extra 
+  
+  MENU FECHADO: altura nav + altura extra
+  */
+  margin-top: calc(100px + 20px);
 }
 
 .vistos-texto {
@@ -74,11 +78,7 @@
 }
 
 .container-pais {
-  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
   width: 100vw;
   height: 38vh;
   overflow-y: hidden;
@@ -86,12 +86,18 @@
 
 .wrapper-imagens {
   display: flex;
-  overflow: hidden;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
 }
 
 .wrapper-imagens img {
   width: 100vw;
   height: 38vh;
+}
+
+.imagens-buttons {
+  display: flex;
+  align-items: center;
 }
 
 .anterior-button,

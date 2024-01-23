@@ -23,12 +23,12 @@
 <body>
   <header class="header">
     <nav class="nav">
-      <i class="fa-solid fa-bars nav-icone-menu"></i>
+      <i class="fa-solid fa-bars nav-icone-menu js-icone-menu"></i>
 
       <img class="nav-logo" src="imagens/logo.png">
     </nav>
 
-    <ul class="nav-menu">
+    <ul id="nav-menu" class="nav-menu">
       <li>ITEM 1</li>
       <li>ITEM 2</li>
       <li>ITEM 3</li>
@@ -37,35 +37,56 @@
     </ul>
   </header>
 
-  <main class="main">
+  <main id="main" class="main">
     <p class="vistos-texto">VISTOS</p>
 
     <div class="grid">
+      <!-- CHINA -->
       <div class="container-pais">
-        <div class="wrapper-imagens">
+        <div id="wrapper" class="wrapper-imagens">
           <img src="imagens/china_turismo.png">
           <img src="imagens/china_negocios.png">
           <img src="imagens/china_estudos.png">
-        </div>
 
-        <i class="fa-solid fa-less-than anterior-button"></i>
-        <i class="fa-solid fa-greater-than proximo-button"></i>
+          <div class="imagens-buttons">
+            <i class="fa-solid fa-less-than anterior-button js-anterior-button"></i>
+            <i class="fa-solid fa-greater-than proximo-button js-proximo-button"></i>
+          </div>
+        </div>
       </div>
 
+      <!-- EUA -->
       <div class="container-pais">
         <div class="wrapper-imagens">
           <img src="imagens/eua_turismo.png">
           <img src="imagens/eua_negocios.png">
           <img src="imagens/eua_estudos.png">
-        </div>
 
-        <i class="fa-solid fa-less-than anterior-button"></i>
-        <i class="fa-solid fa-greater-than proximo-button"></i>
+          <div class="imagens-buttons">
+            <i class="fa-solid fa-less-than anterior-button js-anterior-button"></i>
+            <i class="fa-solid fa-greater-than proximo-button js-proximo-button"></i>
+          </div>
+        </div>
       </div>
-      
+
+      <!-- CANADA -->
+      <div class="container-pais">
+        <div class="wrapper-imagens">
+          <img src="imagens/eua_turismo.png">
+          <img src="imagens/eua_negocios.png">
+          <img src="imagens/eua_estudos.png">
+
+          <div class="imagens-buttons">
+            <i class="fa-solid fa-less-than anterior-button js-anterior-button"></i>
+            <i class="fa-solid fa-greater-than proximo-button js-proximo-button"></i>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
   <footer class="footer"></footer>
+
+  <script type="module" src="main.js"></script>
 </body>
 </html>
