@@ -1,0 +1,121 @@
+/* BARRA DE NAVEGADOR */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 2;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--principal);
+}
+
+.nav-icone-menu {
+  position: fixed;
+  left: 0;
+  margin-left: 8vw;
+  font-size: 32px;
+  color: var(--branco);
+}
+
+.nav-logo {
+  height: 95%;
+}
+
+.nav-menu {
+  /* tamanho do nav */
+  margin: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--principal);
+}
+
+.nav-menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  color: var(--branco);
+  border-top: 1px solid var(--branco);
+  font-family: 'Barlow', sans-serif;
+  cursor: pointer;
+}
+
+/* CONTEUDO MAIN */
+
+.main {
+  /* altura nav + altura nav-menu + altura extra */
+  margin-top: calc(100px + 180px + 20px);
+}
+
+.vistos-texto {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container-pais {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100vw;
+  height: 38vh;
+  overflow-y: hidden;
+}
+
+.wrapper-imagens {
+  display: flex;
+  overflow: hidden;
+}
+
+.wrapper-imagens img {
+  width: 100vw;
+  height: 38vh;
+}
+
+.anterior-button,
+.proximo-button {
+  position: absolute;
+  font-size: 2.5rem;
+  color: var(--secundaria);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.anterior-button {
+  left: 10px;
+}
+
+.proximo-button {
+  right: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  margin-top: 40px;
+  background-color: var(--principal);
+}
