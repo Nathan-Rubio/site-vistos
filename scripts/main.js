@@ -82,6 +82,7 @@ function criarGridHTML() {
   document.querySelector('.js-grid').innerHTML = gridHTML;
 }
 
+
 ///////////////////////////////////////////////////////////////
 
 

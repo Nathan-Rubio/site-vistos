@@ -1,18 +1,27 @@
 /* CONTEUDO MAIN */
 
+.carrossel-requisitos {
+  overflow-x: auto;
+  width: 95vw;
+}
+
+.wrapper {
+  display: flex;
+}
+
 .turismo-container {
   display: flex;
   flex-direction: column;
-  margin: auto;
-  padding: 2.5%;
-  width: 90%;
   text-align: justify;
   border: 1px solid var(--principal);
+  padding: 0 5vw;
+  margin-left: 5vw;
+  min-width: 90vw;
+  box-sizing: border-box;
 }
 
 .lista {
-  list-style-type: armenian;
-  padding-left: 10%;
+  list-style-type: disc;
 }
 
 .lista li {
