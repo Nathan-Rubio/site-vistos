@@ -1,0 +1,54 @@
+/* BARRA DE NAVEGADOR */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 2;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--principal);
+}
+
+.nav-icone-menu {
+  position: fixed;
+  left: 0;
+  margin-left: 8vw;
+  font-size: 32px;
+  color: var(--branco);
+}
+
+.nav-logo {
+  height: 95%;
+}
+
+.nav-menu {
+  /* tamanho do nav */
+  margin: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  height: 180px;
+  display: none;
+  flex-direction: column;
+  background-color: var(--principal);
+}
+
+.nav-menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  color: var(--branco);
+  border-top: 1px solid var(--branco);
+  font-family: 'Barlow', sans-serif;
+  cursor: pointer;
+}
