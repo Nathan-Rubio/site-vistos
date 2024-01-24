@@ -8,3 +8,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.main {
+  /* 
+  MENU ABERTO: altura nav + altura nav-menu + altura extra 
+  
+  MENU FECHADO: altura nav + altura extra
+  */
+  margin-top: calc(100px + 20px);
+}
