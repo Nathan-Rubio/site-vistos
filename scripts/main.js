@@ -65,16 +65,30 @@ function criarGridHTML() {
   paises.forEach((pais) => {
     gridHTML += `
       <div class="container-pais">
+        <div class="pais-nome">${pais.nome}</div>
         <div id="wrapper-${pais.id}" class="wrapper-imagens">
-          <a href="china.html"><img src="${pais.imagem_turismo}"></a>
-          <img src="${pais.imagem_negocios}">
-          <img src="${pais.imagem_estudos}">
+
+          <a href="${pais.id}.html">
+            <img src="${pais.imagem_turismo}">
+          </a>
+
+          <a href="${pais.id}.html">
+            <img src="${pais.imagem_negocios}">
+          </a>
+
+          <a href="${pais.id}.html">
+            <img src="${pais.imagem_estudos}">
+          </a>
 
           <div class="imagens-buttons">
-            <i id="${pais.id}" class="fa-solid fa-less-than anterior-button js-anterior-button"></i>
-            <i id="${pais.id}" class="fa-solid fa-greater-than proximo-button js-proximo-button"></i>
+            <i id="${pais.id}" class="anterior-button js-anterior-button"></i>
+
+            <i id="${pais.id}" class="proximo-button js-proximo-button"></i>
           </div>
+
+          <div class="texto-imagem">TESTETESTETESTETESTE</div>
         </div>
+        <div class="pais-footer"></div>
       </div>
     `;
   });

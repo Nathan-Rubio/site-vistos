@@ -10,25 +10,43 @@
 .grid {
   display: grid;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 .container-pais {
   display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: 38vh;
+  height: 40vh;
   overflow-y: hidden;
+}
+
+.pais-nome {
+  padding: 5px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Barlow', sans-serif;
+  background-color: var(--principal);
+  color: var(--branco);
 }
 
 .wrapper-imagens {
   display: flex;
   overflow-x: hidden;
   overflow-y: hidden;
+  
 }
 
 .wrapper-imagens img {
   width: 100vw;
   height: 38vh;
+}
+
+.pais-img-texto {
+  position: absolute;
+  font-size: 2rem;
+  color: var(--branco);
 }
 
 .imagens-buttons {
@@ -39,16 +57,32 @@
 .anterior-button,
 .proximo-button {
   position: absolute;
-  font-size: 2.5rem;
-  color: var(--secundaria);
+  border: solid var(--secundaria);
+  border-width: 0 2px 2px 0;
+  padding: 6px;
   cursor: pointer;
   z-index: 1;
 }
 
 .anterior-button {
   left: 10px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 .proximo-button {
   right: 10px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.texto-imagem {
+  display: flex;
+  position: relative;
+}
+
+.pais-footer {
+  width: 100%;
+  height: 15px;
+  background-color: var(--secundaria);
 }
