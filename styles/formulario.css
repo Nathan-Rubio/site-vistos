@@ -1,0 +1,96 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 90vw;
+  margin: auto;
+  gap: 1vh;
+  border: 1px solid var(--principal);
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-titulo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--branco);
+  background-color: var(--principal);
+}
+
+.label-texto {
+  margin: auto;
+}
+
+.input-texto,
+.input-telefone,
+.input-cpf,
+.input-cep,
+.input-uf {
+  height: 1.8rem;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid var(--principal);
+  border-radius: 5px;
+}
+
+.input-texto {
+  width: 90%;
+}
+
+.input-telefone {
+  font-size: 1.1rem;
+  padding: 0 2vw;
+  width: 14ch;
+}
+
+.input-cpf {
+  font-size: 1.1rem;
+  padding: 0 2vw;
+  width: 13ch;
+}
+
+.input-cep {
+  font-size: 1.1rem;
+  padding: 0 2vw;
+  width: 9ch;
+}
+
+.input-uf {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0 2vw;
+  width: 3ch;
+}
+
+.sexo {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 90%;
+  padding: 1rem;
+  margin: auto;
+  border: 1px solid var(--principal);
+  border-radius: 5px;
+}
+
+.sexo-masculino,
+.sexo-feminino {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.submit-button {
+  padding: 2vh 10vw;
+  width: 100%;
+  align-self: flex-start;
+  margin-top: 3vh;
+  background-color: var(--principal);
+  border: 1px solid var(--principal);
+  color: var(--branco);
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ESTILOS -->
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Estilos Próprios -->
+  <!-- Estilos Gerais   -->
+  <link rel="stylesheet" href="../styles/geral.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <!-- Estilos desta página -->
+  <link rel="stylesheet" href="../styles/formulario.css">
+
+  <title>Site Vistos</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <i class="fa-solid fa-bars nav-icone-menu js-icone-menu"></i>
+
+      <a href="main.html">
+        <img class="nav-logo" src="../imagens/logo.png" alt="logo">
+      </a>
+    </nav>
+
+    <ul id="nav-menu" class="nav-menu">
+      <li>VISTOS</li>
+      <li>CIDADANIA</li>
+      <li>ITEM 3</li>
+      <li>ITEM 4</li>
+      <li>ITEM 5</li>
+    </ul>
+  </header>
+
+  <main id="main" class="main">
+    
+    <form class="formulario">
+      <div class="form-titulo">
+        FORMULARIO
+      </div>
+
+      <!-- Nome Completo -->
+      <label class="label-texto" for="nome-completo">Nome Completo</label>
+      <input class="input-texto" type="text" id="nome-completo" name="nome-completo">
+
+      <!-- E-mail -->
+      <label class="label-texto" for="email">E-mail</label>
+      <input class="input-texto" type="email" id="email" name="email">
+
+      <!-- Telefone -->
+      <label class="label-texto" for="telefone">Telefone</label>
+      <input class="input-telefone" type="tel" id="telefone" name="telefone" 
+      placeholder="(__) ______-____" 
+      onkeypress="$(this).mask('(00) 00000-0000')">
+
+      <!-- CPF -->
+      <label class="label-texto" for="cpf">CPF:</label>
+      <input class="input-cpf" type="text" id="cpf" name="cpf"
+      placeholder="___.___.___-__" 
+      onkeypress="$(this).mask('000.000.000-00')">
+
+      <!-- Sexo -->
+      <label class="label-texto">Sexo:</label>
+      <div class="sexo">
+        <div class="sexo-masculino">
+          <input type="radio" id="masculino" name="sexo" value="masculino">
+          <label for="masculino">Masculino</label>
+        </div>
+
+        <div class="sexo-feminino">
+          <input type="radio" id="feminino" name="sexo" value="feminino">
+          <label for="feminino">Feminino</label>
+        </div>
+      </div>
+
+      <!-- CEP -->
+      <label class="label-texto" for="cep">CEP:</label>
+      <input class="input-cep" type="text" id="cep" name="cep"
+      placeholder="_____-___" 
+      onkeypress="$(this).mask('00000-000')">
+
+      <!-- UF -->
+      <label class="label-texto" for="uf">UF: </label>
+      <input class="input-uf" type="text" id="uf" name="uf">
+
+      <!-- Cidade -->
+      <label class="label-texto" for="cidade">Cidade: </label>
+			<input class="input-texto" type="text" id="cidade" name="cidade">
+
+      <!-- Bairro -->
+      <label class="label-texto" for="bairro">Bairro: </label>
+			<input class="input-texto" type="text" id="bairro" name="bairro">
+
+      <!-- Endereço -->
+      <label class="label-texto" for="endereco">Endereço: </label>
+			<input class="input-texto" type="text" id="endereco" name="endereco">
+
+      <input class="submit-button" type="submit" value="ENVIAR">
+    </form>
+  </main>
+
+  <footer class="footer"></footer>
+
+  <!-- JQuery para o formulário -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <!-- Script próprio -->
+  <script type="module" src="../scripts/formulario.js"></script>
+</body>
+</html>

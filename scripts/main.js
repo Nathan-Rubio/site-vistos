@@ -9,7 +9,7 @@ function adicionarEventoNavMenu() {
     const main = document.getElementById('main');
   
     // Abre o menu
-    if (menu.style.display === 'none') {
+    if (menu.style.display === 'none' || menu.style.display === '') {
       menu.style.display = 'flex';
       let margem = 100 + 180 + 20;
       margem = margem.toString();
