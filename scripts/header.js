@@ -7,7 +7,7 @@ export function criarHeaderHTML() {
         <i class="fa-solid fa-bars nav-icone-menu js-icone-menu"></i>
 
         <a href="index.html">
-          <img class="nav-logo" src="imagens/logo.png" alt="logo">
+          <img class="nav-logo" src="../imagens/logo.png" alt="logo">
         </a>
       </nav>
 
