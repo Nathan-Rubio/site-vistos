@@ -283,96 +283,426 @@ export const informacoes = [
   {
     id: "eua-turismo",
     informacoes: `
-      Relação de documentos para emissão e renovação do visto americano
-      O processo de solicitação de visto americano envolve diversas etapas e múltiplas categorias de visto. Evite custos desnecessários, perda de tempo e riscos. Conte com a experiência dos Especialistas da Celestino Assessoria.
-      Passaporte com data de expiração superior a 6 meses da data da viagem. Clique Aqui para solicitar a emissão do passaporte;
-      Passaporte anterior com visto vencido (caso possua);
-      Formulário DS 160 (clique aqui) integralmente preenchido;
-      Certidões de nascimento e casamento (se casado);
-      Escritura de imóveis;
-      Documento de veículos em nome do próprio;
-      Extratos bancários com movimentação de conta, poupança e investimentos dos últimos 3 meses;
-      Declaração de Imposto de Renda completo;
-      Carteira de Trabalho atualizada (se empregado);
-      Últimos 3 holerites ou comprovantes de renda (se empregado);
-      Declaração do Imposto de Renda Pessoa Jurídica Original (se empregador);
-      Contrato Social (se empregador);
-      Últimos 3 pró-labores ou equivalente (se empregador);
-      Cópia do cartão do CNPJ (se empregador);
-      Comprovante de matrícula escolar com 3 últimos boletos (se estudante);
-      1 foto 5×5 ou 5×7 recente (inferior a 6 meses), frontal, colorida, fundo branco e sem óculos e cabelos compridos atrás das orelhas;
-      Caso possua cidadania ou nacionalidade em um país qualificado ao programa Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA (clique aqui);
-      Demais documentos necessários serão informados após o recebimento de seu formulário e agendamento de entrevista.
-      A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem, Clique Aqui para garantir que nada atrapalhe o motivo principal de sua viagem.
+      <div class="turismo-container">
+        <p>
+          Relação de documentos para emissão e renovação do visto americano
+        </p>
+
+        <p>
+          O processo de solicitação de visto americano envolve
+           diversas etapas e múltiplas categorias de visto. 
+          Evite custos desnecessários, perda de tempo e riscos. 
+          Conte com a experiência dos Especialistas da Celestino Assessoria.
+        </p>
+
+        <ul>
+          <li>
+            Passaporte com data de expiração superior a 6 meses da data da viagem. 
+            Clique Aqui para solicitar a emissão do passaporte;
+          </li>
+
+          <li>
+            Passaporte anterior com visto vencido (caso possua);
+          </li>
+
+          <li>
+            Formulário DS 160 (clique aqui) integralmente preenchido;
+          </li>
+
+          <li>
+            Certidões de nascimento e casamento (se casado);
+          </li>
+
+          <li>
+            Escritura de imóveis;
+          </li>
+
+          <li>
+            Documento de veículos em nome do próprio;
+          </li>
+
+          <li>
+            Extratos bancários com movimentação de conta, poupança e investimentos dos últimos 3 meses;
+          </li>
+
+          <li>
+            Declaração de Imposto de Renda completo;
+          </li>
+
+          <li>
+            Carteira de Trabalho atualizada (se empregado);
+          </li>
+
+          <li>
+            Últimos 3 holerites ou comprovantes de renda (se empregado);
+          </li>
+
+          <li>
+            Declaração do Imposto de Renda Pessoa Jurídica Original (se empregador);
+          </li>
+
+          <li>
+            Contrato Social (se empregador);
+          </li>
+
+          <li>
+            Últimos 3 pró-labores ou equivalente (se empregador);
+          </li>
+
+          <li>
+            Cópia do cartão do CNPJ (se empregador);
+          </li>
+
+          <li>
+            Comprovante de matrícula escolar com 3 últimos boletos (se estudante);
+          </li>
+
+          <li>
+            1 foto 5×5 ou 5×7 recente (inferior a 6 meses), frontal, colorida, 
+            fundo branco e sem óculos e cabelos compridos atrás das orelhas;
+          </li>
+
+          <li>
+            Caso possua cidadania ou nacionalidade em um país qualificado ao programa 
+            Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA (clique aqui);
+          </li>
+        
+        </ul>
+
+        <P>
+          Demais documentos necessários serão informados após o recebimento de 
+          seu formulário e agendamento de entrevista.
+        </p>
+
+        <p>
+         A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem, 
+         Clique Aqui para garantir que nada atrapalhe o motivo principal de sua viagem.
+        </p>
+
+        <p>
+          ATENÇÃO: A lista de documentos a serem apresentados ao Consulado dependerá 
+          da análise de cada caso pelo Especialista da Celestino, podendo inclusive 
+          ser solicitado documentos adicionais aos acima relacionados.
+        </p>
+
+        <p>
+          Prazo estimado para devolução do passaporte pelo Consulado em 
+          caso de concessão do visto: 10 dias úteis após a entrevista.
+        </p>
+      </div>
       
-
-      ATENÇÃO: A lista de documentos a serem apresentados ao Consulado dependerá da análise de cada caso pelo Especialista da Celestino, podendo inclusive ser solicitado documentos adicionais aos acima relacionados.
-
-      Prazo estimado para devolução do passaporte pelo Consulado em caso de concessão do visto: 10 dias úteis após a entrevista.
+      
+      
+      
+      
+      
+      
+      
+      
     `
   },
   {
     id: "eua-negocios",
     informacoes: `
-      Relação de documentos para emissão e renovação do visto americano
-      O processo de solicitação de visto americano envolve diversas etapas e múltiplas categorias de visto. Evite custos desnecessários, perda de tempo e riscos. Conte com a experiência dos Especialistas da Celestino Assessoria.
-      Passaporte com data de expiração superior a 6 meses da data da viagem. Clique Aqui para solicitar a emissão do passaporte;
-      Passaporte anterior com visto vencido (caso possua);
-      Formulário DS 160 (clique aqui) integralmente preenchido;
-      Carta convite da empresa Americana e/ou Carta da empresa no Brasil;
-      Certidões de nascimento (menores de 21 anos);
-      Certidão de casamento;
-      Escritura de imóveis;
-      Documento de veículos em nome do próprio;
-      Extratos bancários com movimentação de conta, poupança e investimentos dos últimos 3 meses;
-      Declaração de Imposto de Renda completo;
-      Carteira de Trabalho atualizada (se empregado);
-      Últimos 3 holerites ou comprovantes de renda (se empregado);
-      Declaração do Imposto de Renda Pessoa Jurídica Original (se empregador);
-      Contrato Social (se empregador);
-      Últimos 3 pró-labores ou equivalente (se empregador);
-      Cópia do cartão do CNPJ (se empregador);
-      Caso possua cidadania ou nacionalidade em um país qualificado ao programa Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA (clique aqui);
-      Demais documentos necessários serão informados após o recebimento de seu formulário e agendamento de entrevista.
-      A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem, Clique Aqui para garantir que nada atrapalhe o motivo principal de sua viagem.
-      
-      ATENÇÃO: A lista de documentos a serem apresentados ao Consulado dependerá da análise de cada caso pelo Especialista da Celestino, podendo inclusive ser solicitado documentos adicionais aos acima relacionados.
-      
-      Prazo estimado para devolução do passaporte pelo Consulado em caso de concessão do visto: 10 dias úteis após a entrevista.
+      <div class="turismo-container">
+        <p>
+          Relação de documentos para emissão e renovação do visto americano
+        </p>
+
+        <p>
+          O processo de solicitação de visto americano envolve diversas 
+          etapas e múltiplas categorias de visto. Evite custos desnecessários, 
+          perda de tempo e riscos. Conte com a experiência dos Especialistas da Celestino Assessoria.
+        </p>
+
+        <ul>
+          <li>
+            Passaporte com data de expiração superior a 6 meses da data da viagem. Clique Aqui para solicitar a emissão do passaporte;
+          </li>
+
+          <li>
+            Passaporte anterior com visto vencido (caso possua);
+          </li>
+
+          <li>
+            Formulário DS 160 (clique aqui) integralmente preenchido;
+          </li>
+
+          <li>
+            Carta convite da empresa Americana e/ou Carta da empresa no Brasil;
+          </li>
+
+          <li>
+            Certidões de nascimento (menores de 21 anos);
+          </li>
+
+          <li>
+            Certidão de casamento;
+          </li>
+
+          <li>
+            Escritura de imóveis;
+          </li>
+
+          <li>
+            Documento de veículos em nome do próprio;
+          </li>
+
+          <li>
+            Extratos bancários com movimentação de conta, poupança e investimentos dos últimos 3 meses;
+          </li>
+
+          <li>
+            Declaração de Imposto de Renda completo;
+          </li>
+
+          <li>
+            Carteira de Trabalho atualizada (se empregado);
+          </li>
+
+          <li>
+          Últimos 3 holerites ou comprovantes de renda (se empregado);
+          </li>
+
+          <li>
+            Declaração do Imposto de Renda Pessoa Jurídica Original (se empregador);
+          </li>
+
+          <li>
+            Contrato Social (se empregador);
+          </li>
+
+          <li>
+            Últimos 3 pró-labores ou equivalente (se empregador);
+          </li>
+
+          <li>
+            Cópia do cartão do CNPJ (se empregador);
+          </li>
+
+          <li>
+            Caso possua cidadania ou nacionalidade em um país qualificado ao programa 
+            Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA (clique aqui);
+          </li>
+        
+        </ul>
+
+        <p>
+          Demais documentos necessários serão informados após o recebimento de seu formulário e agendamento de entrevista.
+          A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem, 
+          Clique Aqui para garantir que nada atrapalhe o motivo principal de sua viagem.
+        </p>
+
+        <p>
+          Prazo estimado para devolução do passaporte pelo Consulado 
+          em caso de concessão do visto: 10 dias úteis após a entrevista.
+        </p>
+
+        <p>
+          ATENÇÃO: A lista de documentos a serem apresentados ao Consulado 
+          dependerá da análise de cada caso pelo Especialista da Celestino, 
+          podendo inclusive ser solicitado documentos adicionais aos acima relacionados.
+        </p>
+      </div>
     `
   },
   {
     id: "eua-estudos",
     informacoes: `
-      Relação de documentos para emissão e renovação do visto americano
-      O processo de solicitação de visto americano envolve diversas etapas e múltiplas categorias de visto. Evite custos desnecessários, perda de tempo e riscos. Conte com a experiência dos Especialistas da Celestino Assessoria.
-      Passaporte com data de expiração superior a 6 meses da data da viagem. Clique Aqui para solicitar a emissão do passaporte;
-      Passaporte anterior com visto vencido (caso possua);
-      Formulário DS 160 (Clique aqui) integralmente preenchido;
-      Formulário I-20 ou DS 2019;
-      Certidões de nascimento e casamento (se casado);
-      Escritura de imóveis;
-      Documento de veículos em nome do próprio;
-      Extratos bancários com movimentação de conta, poupança e investimentos dos últimos 3 meses;
-      Declaração de Imposto de Renda completo;
-      Carteira de Trabalho atualizada (se empregado);
-      Últimos 3 holerites ou comprovantes de renda (se empregado);
-      Declaração do Imposto de Renda Pessoa Jurídica Original (se empregador);
-      Contrato Social (se empregador);
-      Últimos 3 pró-labores ou equivalente (se empregador);
-      Cópia do cartão do CNPJ (se empregador);
-      Comprovante de matrícula escolar com 3 últimos boletos (se estudante);
-      Comprovante de pagamento da taxa SEVIS (Studant and Exchange Visitor Information System);
-      Demais documentos necessários serão informados após o recebimento de seu formulário e agendamento de entrevista.
-      A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem, Clique Aqui para garantir que nada atrapalhe o motivo principal de sua viagem.
-      ATENÇÃO: A lista de documentos a serem apresentados ao Consulado dependerá da análise de cada caso pelo Especialista da Celestino, podendo inclusive ser solicitado documentos adicionais aos acima relacionados.
+      <div class="turismo-container">
+        <p>
+          Relação de documentos para emissão e renovação do visto americano
+        </p>
 
-      Prazo estimado para devolução do passaporte pelo Consulado em caso de concessão do visto: 10 dias úteis após a entrevista.
+        <p>
+          O processo de solicitação de visto americano envolve diversas 
+          etapas e múltiplas categorias de visto. Evite custos desnecessários, 
+          perda de tempo e riscos. Conte com a experiência dos Especialistas da Celestino Assessoria.
+        </p>
+
+        <ul>
+          <li>
+            Passaporte com data de expiração superior a 6 meses da data da viagem. Clique Aqui para solicitar a emissão do passaporte;
+          </li>
+
+          <li>
+            Passaporte anterior com visto vencido (caso possua);
+          </li>
+
+          <li>
+            Formulário DS 160 (clique aqui) integralmente preenchido;
+          </li>
+
+          <li>
+            Formulário I-20 ou DS 2019;
+          </li>
+
+          <li>
+            Certidões de nascimento e casamento (se casado);
+          </li>
+
+          <li>
+            Escritura de imóveis;
+          </li>
+
+          <li>
+            Documento de veículos em nome do próprio;
+          </li>
+
+          <li>
+            Extratos bancários com movimentação de conta, poupança e investimentos dos últimos 3 meses;
+          </li>
+
+          <li>
+            Declaração de Imposto de Renda completo;
+          </li>
+
+          <li>
+            Carteira de Trabalho atualizada (se empregado);
+          </li>
+
+          <li>
+            Últimos 3 holerites ou comprovantes de renda (se empregado);
+          </li>
+
+          <li>
+            Comprovante de matrícula escolar com 3 últimos boletos (se estudante);
+          </li>
+
+          <li>
+            Declaração do Imposto de Renda Pessoa Jurídica Original (se empregador);
+          </li>
+
+          <li>
+            Contrato Social (se empregador);
+          </li>
+
+          <li>
+            Últimos 3 pró-labores ou equivalente (se empregador);
+          </li>
+
+          <li>
+            Cópia do cartão do CNPJ (se empregador);
+          </li>
+
+          <li>
+            Comprovante de pagamento da taxa SEVIS 
+            (Studant and Exchange Visitor Information System);
+          </li>
+
+          <li>
+            Caso possua cidadania ou nacionalidade em um país qualificado ao programa 
+            Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA (clique aqui);
+          </li>
+        
+        </ul>
+
+        <p>
+          Demais documentos necessários serão informados após o recebimento de seu formulário e agendamento de entrevista.
+          A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem, 
+          Clique Aqui para garantir que nada atrapalhe o motivo principal de sua viagem.
+        </p>
+
+        <p>
+          Prazo estimado para devolução do passaporte pelo Consulado 
+          em caso de concessão do visto: 10 dias úteis após a entrevista.
+        </p>
+
+        <p>
+          ATENÇÃO: A lista de documentos a serem apresentados ao Consulado 
+          dependerá da análise de cada caso pelo Especialista da Celestino, 
+          podendo inclusive ser solicitado documentos adicionais aos acima relacionados.
+        </p>
+      </div>
     `
   },
   {
     id: "canada-turismo",
     informacoes: `
+    <div class="turismo-container">
+        <p>
+
+        </p>
+
+        <ul>
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+        
+        </ul>
+
+        <p>
+
+        </p>
+
+        <p>
+
+        </p>
+      </div>
       RESIDENTE TEMPORÁRIO
       Além do turismo, esse visto pode ser solicitado para trânsito e cursos de idiomas de até 6 meses. O processo de visto do Canadá requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. A aplicação em papel está suspensa por tempo indeterminado no Brasil , prevalecendo a aplicação de visto eletrônica.
       
@@ -403,6 +733,90 @@ export const informacoes = [
   {
     id: "canada-negocios",
     informacoes: `
+    <div class="turismo-container">
+        <p>
+
+        </p>
+
+        <ul>
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+        
+        </ul>
+
+        <p>
+
+        </p>
+
+        <p>
+
+        </p>
+      </div>
       RESIDENTE TEMPORÁRIO
       Este visto é ideal para aqueles que irão ao Canadá participar de reuniões pontuais, conferências, visitas técnicas breves etc. O processo de visto do Canadá requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. A aplicação de visto em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
       
@@ -431,6 +845,90 @@ export const informacoes = [
   {
     id: "canada-estudos",
     informacoes: `
+    <div class="turismo-container">
+        <p>
+
+        </p>
+
+        <ul>
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+
+          <li>
+
+          </li>
+        
+        </ul>
+
+        <p>
+
+        </p>
+
+        <p>
+
+        </p>
+      </div>
       PERMISSÃO DE ESTUDOS
       Ideal, sobretudo, para aqueles que estudarão idiomas por mais de 6 meses, farão o seu High School, College ou University. O processo de visto do Canadá requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. A aplicação em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
       
