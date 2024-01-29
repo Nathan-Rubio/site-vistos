@@ -1,4 +1,5 @@
 import { paisesVistos } from "./paises-vistos.js";
+import { criarHeaderHTML } from "./header.js";
 
 // FUNÇÕES //
 
@@ -106,6 +107,7 @@ function criarGridHTML() {
 
 // SCRIPT DA PÁGINA //
 
+criarHeaderHTML();
 criarGridHTML();
 adicionarEventoNavMenu();
 adicionarEventoImagemButtons();
