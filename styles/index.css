@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 40vh;
+  height: 260px;
   overflow-y: hidden;
 }
 
@@ -40,13 +40,7 @@
 
 .wrapper-imagens img {
   width: 100vw;
-  height: 38vh;
-}
-
-.pais-img-texto {
-  position: absolute;
-  font-size: 2rem;
-  color: var(--branco);
+  height: 200px;
 }
 
 .imagens-buttons {
@@ -76,13 +70,8 @@
   -webkit-transform: rotate(-45deg);
 }
 
-.texto-imagem {
-  display: flex;
-  position: relative;
-}
-
 .pais-footer {
   width: 100%;
-  height: 15px;
+  height: 20px;
   background-color: var(--secundaria);
 }

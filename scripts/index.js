@@ -66,28 +66,32 @@ function criarGridHTML() {
     gridHTML += `
       <div class="container-pais">
         <div class="pais-nome">${pais.nome}</div>
-        <div id="wrapper-${pais.id}" class="wrapper-imagens">
+          <div id="wrapper-${pais.id}" class="wrapper-imagens">
 
-          <a href="${pais.id}.html">
-            <img src="${pais.imagem_turismo}">
-          </a>
-
-          <a href="${pais.id}.html">
-            <img src="${pais.imagem_negocios}">
-          </a>
-
-          <a href="${pais.id}.html">
-            <img src="${pais.imagem_estudos}">
-          </a>
-
-          <div class="imagens-buttons">
-            <i id="${pais.id}" class="anterior-button js-anterior-button"></i>
-
-            <i id="${pais.id}" class="proximo-button js-proximo-button"></i>
+          <div class="imagem-container">
+            <a href="${pais.id}.html">
+              <img src="${pais.imagem_turismo}">
+            </a>
+          </div>
+      
+          <div class="imagem-container">
+            <a href="${pais.id}.html">
+              <img src="${pais.imagem_negocios}">
+            </a>
+          </div>
+      
+          <div class="imagem-container">
+            <a href="${pais.id}.html">
+              <img src="${pais.imagem_estudos}">
+            </a>
           </div>
 
-          <div class="texto-imagem">TESTETESTETESTETESTE</div>
-        </div>
+            <div class="imagens-buttons">
+              <i id="${pais.id}" class="anterior-button js-anterior-button"></i>
+
+              <i id="${pais.id}" class="proximo-button js-proximo-button"></i>
+            </div>
+          </div>
         <div class="pais-footer"></div>
       </div>
     `;
