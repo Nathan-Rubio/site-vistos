@@ -619,227 +619,243 @@ export const informacoes = [
   {
     id: "canada-turismo",
     informacoes: `
-    <div class="turismo-container">
+      <div class="turismo-container">
         <p>
+          RESIDENTE TEMPORÁRIO
+        </p>
 
+        <p>
+          Este visto é ideal para aqueles que irão ao Canadá participar de reuniões pontuais, 
+          conferências, visitas técnicas breves etc. O processo de visto do Canadá requer 
+          comparecimento do solicitante, sob horário marcado, para coleta biométrica. 
+          A aplicação de visto em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
         </p>
 
         <ul>
           <li>
-
+            Passaporte com data de expiração superior a 6 meses da data de viagem.
+            Clique Aqui para solicitar a emissão do passaporte;
           </li>
 
           <li>
-
+            Formulário preenchido, (Clique aqui) para acessar. 
+            Os formulários oficiais, em inglês, serão redigidos pela CELESTINO 
+            e entregues para assinatura do solicitante. Um deles deverá ter 
+            firma reconhecida em cartório;
           </li>
 
           <li>
-
+            01 Foto 3×5 recente, fundo branco;
           </li>
 
           <li>
-
+            Cópia do RG do aplicante ou patrocinador;
           </li>
 
           <li>
-
+            Certidão de nascimento ou de casamento do aplicante ou patrocinador;
           </li>
 
           <li>
-
+            Imposto de Renda completo, com páginas enumeradas, com recibo de entrega, 
+            do solicitante ou patrocinador;
           </li>
 
           <li>
-
+            Extrato bancário dos últimos 3 meses do solicitante ou patrocinador. 
+            Para atender às exigências do consulado, a CELESTINO analisará a 
+            movimentação e saldo financeiro no decorrer do processo;
           </li>
 
           <li>
-
+            Se houver um patrocinador: carta custeio assinada e reconhecida firma em cartório;
           </li>
 
           <li>
-
+            Para empregados: holerites dos últimos 3 meses do solicitante ou patrocinador;
           </li>
 
           <li>
-
+            Para empregadores: contrato social e pró-labores (ou decores) 
+            dos últimos 3 meses do solicitante ou patrocinador;
+          </li>
+          
+          <li>
+            Para estudantes: declaração de matrícula da escola;
           </li>
 
           <li>
-
+            Para aposentado: Últimos 3 comprovantes de recebimento do INSS;
+          </li>
+          
+          <li>
+            Se houver amigos ou parentes no Canadá: carta convite e comprovação de status do convidador;
           </li>
 
           <li>
-
+            Para cursos de idiomas de até 6 meses: carta de aceitação do curso (LOA);
+          </li>
+          
+          <li>
+            Para menores desacompanhados: autorização de viagem assinada pelos pais 
+            com firma reconhecida em cartório;
           </li>
 
           <li>
-
+            Para menores desacompanhados (fazer curso): carta de custódia emitida por um tutor no Canadá;
           </li>
-
+          
           <li>
-
+            Recomendamos a contratação do seguro viagem, devido o alto custo médico do país. 
+            Clique Aqui para solicitar a cotação do seguro viagem;
           </li>
-
-          <li>
-
-          </li>
-
-          <li>
-
-          </li>
-
-          <li>
-
-          </li>
-        
         </ul>
 
         <p>
-
+          Documentos adicionais deverão ser solicitados a partir da análise do formulário do solicitante.
         </p>
 
         <p>
+          Os documentos em português, é recomendável tradução técnica/juramentada 
+          para acompanhar o processo, principalmente a parte de comprovação financeira. 
+          Consulte-nos para um orçamento sem compromisso.
+        </p>
 
+        <p>
+          OBS: menores de 14 anos, maiores de 79 anos e solicitantes 
+          de um visto de trânsito com destino aos EUA estão isentos da coleta biométrica.
+        </p>
+
+        <p>
+          Prazo estimado: 120 dias úteis a partir da biometria
         </p>
       </div>
-      RESIDENTE TEMPORÁRIO
-      Além do turismo, esse visto pode ser solicitado para trânsito e cursos de idiomas de até 6 meses. O processo de visto do Canadá requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. A aplicação em papel está suspensa por tempo indeterminado no Brasil , prevalecendo a aplicação de visto eletrônica.
-      
-      Passaporte com data de expiração superior a 6 meses da data de viagem.Clique Aqui para solicitar a emissão do passaporte;
-      Formulário preenchido, (Clique aqui) para acessar. Os formulários oficiais, em inglês, serão redigidos pela CELESTINO e entregues para assinatura do solicitante. Um deles deverá ter firma reconhecida em cartório;
-      01 Foto 3×5 recente, fundo branco;
-      Cópia do RG do aplicante ou patrocinador;
-      Certidão de nascimento ou de casamento do aplicante ou patrocinador;
-      Imposto de Renda completo, com páginas enumeradas, com recibo de entrega, do solicitante ou patrocinador;
-      Extrato bancário dos últimos 3 meses do solicitante ou patrocinador. Para atender às exigências do consulado, a CELESTINO analisará a movimentação e saldo financeiro no decorrer do processo;
-      Se houver um patrocinador: carta custeio assinada e reconhecida firma em cartório;
-      Para empregados: holerites dos últimos 3 meses do solicitante ou patrocinador;
-      Para empregadores: contrato social e pró-labores (ou decores) dos últimos 3 meses do solicitante ou patrocinador;
-      Para estudantes: declaração de matrícula da escola;
-      Para aposentado: Últimos 3 comprovantes de recebimento do INSS;
-      Se houver amigos ou parentes no Canadá: carta convite e comprovação de status do convidador;
-      Para cursos de idiomas de até 6 meses: carta de aceitação do curso (LOA);
-      Para menores desacompanhados: autorização de viagem assinada pelos pais com firma reconhecida em cartório;
-      Para menores desacompanhados (fazer curso): carta de custódia emitida por um tutor no Canadá;
-      Recomendamos a contratação do seguro viagem, devido o alto custo médico do país. Clique Aqui para solicitar a cotação do seguro viagem;
-      Documentos adicionais deverão ser solicitados a partir da análise do formulário do solicitante.
-      Os documentos em português, é recomendável tradução técnica/juramentada para acompanhar o processo, principalmente a parte de comprovação financeira. Consulte-nos para um orçamento sem compromisso. 
-      OBS: menores de 14 anos, maiores de 79 anos e solicitantes de um visto de trânsito com destino aos EUA estão isentos da coleta biométrica.
-      
-      Prazo estimado: 120 dias úteis a partir da biometria
     `
   },
   {
     id: "canada-negocios",
     informacoes: `
-    <div class="turismo-container">
+      <div class="turismo-container">
         <p>
+          RESIDENTE TEMPORÁRIO
+        </p>
 
+        <p>
+          Além do turismo, esse visto pode ser solicitado para trânsito e 
+          cursos de idiomas de até 6 meses. O processo de visto do Canadá 
+          requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. 
+          A aplicação em papel está suspensa por tempo indeterminado no Brasil , 
+          prevalecendo a aplicação de visto eletrônica.
         </p>
 
         <ul>
           <li>
-
+            Passaporte com data de expiração superior a 6 meses da data de viagem.
+            Clique Aqui para solicitar a emissão do passaporte;
           </li>
 
           <li>
-
+            Formulário preenchido, (Clique aqui) para acessar. 
+            Os formulários oficiais, em inglês, serão redigidos pela CELESTINO 
+            e entregues para assinatura do solicitante. Um deles deverá ter 
+            firma reconhecida em cartório;
           </li>
 
           <li>
-
+            01 Foto 3×5 recente, fundo branco;
           </li>
 
           <li>
-
+            Cópia do RG do aplicante ou patrocinador;
           </li>
 
           <li>
-
+            Certidão de nascimento ou de casamento do aplicante ou patrocinador;
           </li>
 
           <li>
-
+            Imposto de Renda completo, com páginas enumeradas, com recibo de entrega, 
+            do solicitante ou patrocinador;
           </li>
 
           <li>
-
+            Extrato bancário dos últimos 3 meses do solicitante ou patrocinador. 
+            Para atender às exigências do consulado, a CELESTINO analisará a 
+            movimentação e saldo financeiro no decorrer do processo;
           </li>
 
           <li>
-
+            Carta emitida pelo empregador solicitando o visto de negócios. 
+            Contrate a CELESTINO para obter o nosso modelo personalizado;
           </li>
 
           <li>
-
+            Carta convite emitida pela empresa canadense e/ou inscrição em um evento no país;
           </li>
 
           <li>
-
+            Se houver um patrocinador: carta custeio assinada e reconhecida firma em cartório;
           </li>
 
           <li>
-
+            Para empregados: holerites dos últimos 3 meses do solicitante ou patrocinador;
           </li>
 
           <li>
-
+            Para empregadores: contrato social e pró-labores (ou decores) 
+            dos últimos 3 meses do solicitante ou patrocinador;
+          </li>
+          
+          <li>
+            Para estudantes: declaração de matrícula da escola;
           </li>
 
           <li>
-
+            Para aposentado: Últimos 3 comprovantes de recebimento do INSS;
+          </li>
+          
+          <li>
+            Se houver amigos ou parentes no Canadá: carta convite e comprovação de status do convidador;
           </li>
 
           <li>
-
+            Para cursos de idiomas de até 6 meses: carta de aceitação do curso (LOA);
+          </li>
+          
+          <li>
+            Para menores desacompanhados: autorização de viagem assinada pelos pais 
+            com firma reconhecida em cartório;
           </li>
 
           <li>
-
+            Para menores desacompanhados (fazer curso): carta de custódia emitida por um tutor no Canadá;
           </li>
-
+          
           <li>
-
+            Recomendamos a contratação do seguro viagem, devido o alto custo médico do país. 
+            Clique Aqui para solicitar a cotação do seguro viagem;
           </li>
-
-          <li>
-
-          </li>
-        
         </ul>
 
         <p>
-
+          Documentos adicionais deverão ser solicitados a partir da análise do formulário do solicitante.
         </p>
 
         <p>
+          Os documentos em português, é recomendável tradução técnica/juramentada 
+          para acompanhar o processo, principalmente a parte de comprovação financeira. 
+          Consulte-nos para um orçamento sem compromisso.
+        </p>
 
+        <p>
+          OBS: menores de 14 anos, maiores de 79 anos e solicitantes 
+          de um visto de trânsito com destino aos EUA estão isentos da coleta biométrica.
+        </p>
+
+        <p>
+          Prazo estimado: 120 dias úteis a partir da biometria
         </p>
       </div>
-      RESIDENTE TEMPORÁRIO
-      Este visto é ideal para aqueles que irão ao Canadá participar de reuniões pontuais, conferências, visitas técnicas breves etc. O processo de visto do Canadá requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. A aplicação de visto em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
-      
-      Passaporte com data de expiração superior a 6 meses da data de viagem.Clique Aqui para solicitar a emissão do passaporte;
-      Formulário preenchido, (Clique aqui) para acessar. Os formulários oficiais, em inglês, serão redigidos pela CELESTINO e entregues para assinatura do solicitante. Um deles deverá ter firma reconhecida em cartório;
-      01 Foto 3×5 recente, fundo branco;
-      Cópia do RG do aplicante ou patrocinador;
-      Certidão de nascimento ou de casamento do aplicante ou patrocinador;
-      Imposto de Renda completo, com páginas enumeradas, com recibo de entrega, do solicitante ou patrocinador;
-      Extrato bancário dos últimos 3 meses do solicitante ou patrocinador. Para atender às exigências do consulado, a CELESTINO analisará a movimentação e saldo financeiro no decorrer do processo;
-      Carta emitida pelo empregador solicitando o visto de negócios. Contrate a CELESTINO para obter o nosso modelo personalizado;
-      Carta convite emitida pela empresa canadense e/ou inscrição em um evento no país;
-      Se houver um patrocinador: carta custeio assinada e reconhecida firma em cartório;
-      Para empregados: holerites dos últimos 3 meses do solicitante ou patrocinador;
-      Para empregadores: contrato social e pró-labores (ou decores) dos últimos 3 meses do solicitante ou patrocinador;
-      Para estudantes: declaração de matrícula da escola;
-      Para aposentado: Últimos 3 comprovantes de recebimento do INSS;
-      Recomendamos a contratação do seguro viagem, devido o alto custo médico do país. Clique Aqui para solicitar a cotação do seguro viagem;
-      Documentos adicionais deverão ser solicitados a partir da análise do formulário do solicitante.
-      Os documentos em português, é recomendável tradução técnica/juramentada para acompanhar o processo, principalmente a parte de comprovação financeira. Consulte-nos para um orçamento sem compromisso. 
-      OBS: menores de 14 anos, maiores de 79 anos e solicitantes de um visto de trânsito com destino aos EUA estão isentos da coleta biométrica.
-      
-      Prazo estimado: 120 dias úteis a partir da biometria
     `
   },
   {
@@ -847,115 +863,130 @@ export const informacoes = [
     informacoes: `
     <div class="turismo-container">
         <p>
+          PERMISSÃO DE ESTUDOS
+        </p>
 
+        <p>
+          Ideal, sobretudo, para aqueles que estudarão idiomas por mais de 6 meses, 
+          farão o seu High School, College ou University. O processo de visto do Canadá 
+          requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. 
+          A aplicação em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
         </p>
 
         <ul>
           <li>
-
+            Passaporte com data de expiração superior a 6 meses da data de viagem.
+            Clique Aqui para solicitar a emissão do passaporte;
           </li>
 
           <li>
-
+            Formulário preenchido, (Clique aqui) para acessar. 
+            Os formulários oficiais, em inglês, serão redigidos pela CELESTINO 
+            e entregues para assinatura do solicitante. Um deles deverá ter 
+            firma reconhecida em cartório;
           </li>
 
           <li>
-
+            01 Foto 3×5 recente, fundo branco;
           </li>
 
           <li>
-
+            Cópia do RG do aplicante ou patrocinador;
           </li>
 
           <li>
-
+            Certidão de nascimento ou de casamento do aplicante ou patrocinador;
           </li>
 
           <li>
-
+            Carta de aceitação do curso (LOA) – CAQ para aqueles que estudarão no Quebec;
           </li>
 
           <li>
-
+            Exame médico (Information Sheet) realizado por um médico cadastrado ao consulado. 
+            A lista de médicos pode ser consultada clicando aqui . No nosso blog, 
+            temos uma página dedicada ao assunto. Clique aqui para ler!
           </li>
 
           <li>
-
+            Imposto de Renda completo, com páginas enumeradas, com recibo de entrega, 
+            do solicitante ou patrocinador;
           </li>
 
           <li>
-
+            Extrato bancário dos últimos 3 meses do solicitante ou patrocinador. 
+            Para atender às exigências do consulado, a CELESTINO analisará a 
+            movimentação e saldo financeiro no decorrer do processo;
           </li>
 
           <li>
-
+            Se houver um patrocinador: carta custeio assinada e reconhecida firma em cartório;
           </li>
 
           <li>
-
+            Para empregados: holerites dos últimos 3 meses do solicitante ou patrocinador;
           </li>
 
           <li>
-
+            Para empregadores: contrato social e pró-labores (ou decores) 
+            dos últimos 3 meses do solicitante ou patrocinador;
+          </li>
+          
+          <li>
+            Para estudantes: declaração de matrícula da escola;
           </li>
 
           <li>
-
+            Para aposentado: Últimos 3 comprovantes de recebimento do INSS;
+          </li>
+          
+          <li>
+            Se houver amigos ou parentes no Canadá: carta convite e comprovação de status do convidador;
           </li>
 
           <li>
-
+            Para cursos de idiomas de até 6 meses: carta de aceitação do curso (LOA);
+          </li>
+          
+          <li>
+            Para menores desacompanhados: autorização de viagem assinada pelos pais 
+            com firma reconhecida em cartório;
           </li>
 
           <li>
-
+            Para menores desacompanhados: carta de custódia emitida por um tutor no Canadá;
           </li>
-
+          
           <li>
-
+            Recomendamos a contratação do seguro viagem, devido o alto custo médico do país. 
+            Clique Aqui para solicitar a cotação do seguro viagem;
           </li>
-
-          <li>
-
-          </li>
-        
         </ul>
 
         <p>
-
+          Documentos adicionais deverão ser solicitados a partir da análise do formulário do solicitante.
         </p>
 
         <p>
-
+          Os documentos em português, é recomendável tradução técnica/juramentada 
+          para acompanhar o processo, principalmente a parte de comprovação financeira. 
+          Consulte-nos para um orçamento sem compromisso.
         </p>
-      </div>
-      PERMISSÃO DE ESTUDOS
-      Ideal, sobretudo, para aqueles que estudarão idiomas por mais de 6 meses, farão o seu High School, College ou University. O processo de visto do Canadá requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. A aplicação em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
-      
-      Passaporte com data de expiração superior a 6 meses da data de viagem.Clique Aqui para solicitar a emissão do passaporte;
-      Formulário preenchido, (Clique aqui) para acessar. Os formulários oficiais, em inglês, serão redigidos pela CELESTINO e entregues para assinatura do solicitante. Um deles deverá ter firma reconhecida em cartório;
-      01 Foto 3×5 recente, fundo branco;
-      Cópia do RG do aplicante ou patrocinador;
-      Certidão de nascimento ou de casamento do aplicante ou patrocinador;
-      Carta de aceitação do curso (LOA) – CAQ para aqueles que estudarão no Quebec;
-      Exame médico (Information Sheet) realizado por um médico cadastrado ao consulado. A lista de médicos pode ser consultada clicando aqui . No nosso blog, temos uma página dedicada ao assunto. Clique aqui para ler!
-      Imposto de Renda completo, com páginas enumeradas, com recibo de entrega, do solicitante ou patrocinador;
-      Extrato bancário dos últimos 3 meses do solicitante ou patrocinador. Para atender às exigências do consulado, a CELESTINO analisará a movimentação e saldo financeiro no decorrer do processo;
-      Se houver um patrocinador: carta custeio assinada e reconhecida firma em cartório;
-      Para empregados: holerites dos últimos 3 meses do solicitante ou patrocinador;
-      Para empregadores: contrato social e pró-labores (ou decores) dos últimos 3 meses do solicitante ou patrocinador;
-      Para estudantes: declaração de matrícula da escola;
-      Para aposentado: Últimos 3 comprovantes de recebimento do INSS;
-      Para menores desacompanhados: autorização de viagem assinada pelos pais com firma reconhecida em cartório;
-      Para menores desacompanhados: carta de custódia emitida por um tutor no Canadá;
-      Recomendamos a contratação do seguro viagem, devido o alto custo médico do país. Clique Aqui para solicitar a cotação do seguro viagem;
-      Documentos adicionais deverão ser solicitados a partir da análise do formulário do solicitante.
-      Os documentos em português, é recomendável tradução técnica/juramentada para acompanhar o processo, principalmente a parte de comprovação financeira. Consulte-nos para um orçamento sem compromisso. 
-      OBS: menores de 14 anos, maiores de 79 anos e solicitantes de um visto de trânsito com destino aos EUA estão isentos da coleta biométrica.
-      
-      OBS: antes de iniciar essa solicitação, o aluno deverá ter obtido o seu Information Sheet junto a um médico credenciado ao consulado canadense.
-      
-      Prazo estimado: 12 semanas a partir da biometria
+
+        <p>
+          OBS: menores de 14 anos, maiores de 79 anos e solicitantes 
+          de um visto de trânsito com destino aos EUA estão isentos da coleta biométrica.
+        </p>
+
+        <p>
+          OBS: antes de iniciar essa solicitação, o aluno deverá ter obtido o seu 
+          Information Sheet junto a um médico credenciado ao consulado canadense.
+        </p>
+
+        <p>
+          Prazo estimado: 12 semanas a partir da biometria
+        </p>
+      </div>      
     `
   }
 ];

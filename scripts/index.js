@@ -1,4 +1,4 @@
-import { paisesVistos } from "./paises-vistos.js";
+import { paisesVistos } from "../data/paises-vistos.js";
 import { criarHeaderHTML } from "./header.js";
 
 // FUNÇÕES //
