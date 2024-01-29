@@ -1,29 +1,5 @@
-import { criarHeaderHTML } from "./header.js";
-
-// FUNÇÕES //
-
-// Adiciona o abrir e fechar do menu de navegação
-function adicionarEventoNavMenu() {
-  document.querySelector('.js-icone-menu').addEventListener('click', () => {
-    const menu = document.getElementById('nav-menu');
-    const main = document.getElementById('main');
-  
-    // Abre o menu
-    if (menu.style.display === 'none' || menu.style.display === '') {
-      menu.style.display = 'flex';
-      let margem = 100 + 180 + 20;
-      margem = margem.toString();
-      main.style.marginTop = `${margem}px`;
-    }
-    // Fecha o menu
-    else {
-      menu.style.display = 'none';
-      let margem = 100 + 20;
-      margem = margem.toString();
-      main.style.marginTop = `${margem}px`;
-    }
-  });
-}
+import { criarHeaderHTML, adicionarEventoNavMenu } from "./header.js";
+import { criarFooterHTML } from "./footer.js";
 
 // Auto Completa o endereço de acordo com o CEP oferecido
 function autocompletarCEP() {
@@ -75,5 +51,6 @@ function autocompletarCEP() {
 // SCRIPT DA PÁGINA //
 
 criarHeaderHTML();
+criarFooterHTML();
 adicionarEventoNavMenu();
 autocompletarCEP();
