@@ -1,4 +1,5 @@
 import { informacoes } from "../data/informacoes.js";
+import { criarHeaderHTML } from "./header.js";
 
 // FUNÇÕES //
 
@@ -60,5 +61,6 @@ function criarWrapperInformacoesHTML() {
 
 // SCRIPT DA PÁGINA //
 
+criarHeaderHTML();
 criarWrapperInformacoesHTML();
 adicionarEventoNavMenu();

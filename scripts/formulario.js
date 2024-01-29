@@ -1,3 +1,5 @@
+import { criarHeaderHTML } from "./header.js";
+
 // FUNÇÕES //
 
 // Adiciona o abrir e fechar do menu de navegação
@@ -72,5 +74,6 @@ function autocompletarCEP() {
 
 // SCRIPT DA PÁGINA //
 
+criarHeaderHTML();
 adicionarEventoNavMenu();
 autocompletarCEP();

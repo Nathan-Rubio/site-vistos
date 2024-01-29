@@ -24,6 +24,7 @@
   margin-left: 8vw;
   font-size: 32px;
   color: var(--branco);
+  cursor: pointer;
 }
 
 .nav-logo {
