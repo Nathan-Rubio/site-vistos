@@ -1,25 +1,46 @@
 /* CONTEUDO MAIN */
 
+.vistos-texto {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
 .grid {
   display: grid;
   justify-content: center;
+  gap: 40px;
 }
 
 .container-pais {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 260px;
+  height: 320px;
+  overflow-y: hidden;
+}
+
+.pais-nome {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Barlow', sans-serif;
+  background-color: var(--principal);
+  color: var(--branco);
 }
 
 .wrapper-imagens {
   display: flex;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
 }
 
 .wrapper-imagens img {
   width: 100vw;
-  height: 260px;
+  height: 250px;
 }
 
 .imagens-buttons {
@@ -46,9 +67,15 @@
 }
 
 .anterior-button {
-  left: 0;
+  left: 8px;
 }
 
 .proximo-button {
-  right: 0;
+  right: 8px;
+}
+
+.pais-footer {
+  width: 100%;
+  height: 20px;
+  background-color: var(--secundaria);
 }

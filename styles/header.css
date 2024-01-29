@@ -42,12 +42,22 @@
   background-color: var(--principal);
 }
 
+.nav-menu a {
+  width: 100%;
+  /* Altura = altura nav-menu / numero de botões */
+  height: calc(180px / var(--botoes-nav-menu));
+  color: var(--branco);
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .nav-menu li {
+  width: 100%;
+  /* Altura = altura nav-menu / numero de botões */
+  height: calc(180px / var(--botoes-nav-menu));
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 20%;
   color: var(--branco);
   border-top: 1px solid var(--branco);
   font-family: 'Barlow', sans-serif;

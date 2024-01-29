@@ -13,8 +13,12 @@ export function criarHeaderHTML() {
       </nav>
 
       <ul id="nav-menu" class="nav-menu">
-        <li>VISTOS</li>
-        <li>CIDADANIA</li>
+        <a href="vistos.html">
+          <li>VISTOS</li>
+        </a>
+        <a href="cidadania.html">
+          <li>CIDADANIA</li>
+        </a>
         <li>ITEM 3</li>
         <li>ITEM 4</li>
         <li>ITEM 5</li>

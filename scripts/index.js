@@ -1,4 +1,4 @@
-import { paisesVistos } from "../data/paises-vistos.js";
+import { bannerIndex } from "../data/index-banner.js";
 import { criarHeaderHTML, adicionarEventoNavMenu } from "./header.js";
 import { criarFooterHTML } from "./footer.js";
 
@@ -6,77 +6,63 @@ import { criarFooterHTML } from "./footer.js";
 
 // Adiciona o movimento do carrossel de imagens no grid
 function adicionarEventoImagemButtons() {
-  document.querySelectorAll('.js-anterior-button').forEach((button) => {
-    button.addEventListener('click', () => {
-      const id = button.id;
-      const wrapper = document.getElementById(`wrapper-${id}`);
-      const screenWidth = window.innerWidth;
-  
-      wrapper.scrollTo({
-        left: wrapper.scrollLeft - screenWidth,
-        top: 0,
-        behavior: "smooth"
-      });
+  const anteriorButton = document.querySelector('.js-anterior-button');
+
+  anteriorButton.addEventListener('click', () => {
+    const wrapper = document.getElementById('wrapper');
+    const screenWidth = window.innerWidth;
+
+    wrapper.scrollTo({
+      left: wrapper.scrollLeft - screenWidth,
+      top: 0,
+      behavior: "smooth"
     });
   });
-  
-  document.querySelectorAll('.js-proximo-button').forEach((button) => {
-    button.addEventListener('click', () => {
-      const id = button.id;
-      const wrapper = document.getElementById(`wrapper-${id}`);
-      const screenWidth = window.innerWidth;
-  
-      wrapper.scrollTo({
-        left: wrapper.scrollLeft + screenWidth,
-        top: 0,
-        behavior: "smooth"
-      });
+
+  const proximoButton = document.querySelector('.js-proximo-button');
+
+  proximoButton.addEventListener('click', () => {
+    const wrapper = document.getElementById('wrapper');
+    const screenWidth = window.innerWidth;
+
+    wrapper.scrollTo({
+      left: wrapper.scrollLeft + screenWidth,
+      top: 0,
+      behavior: "smooth"
     });
   });
 }
 
 // Cria o HTML do Grid
 function criarGridHTML() {
-  const paises = paisesVistos;
+  const banner = bannerIndex;
 
-  let gridHTML = [];
+  let imagemHTML = [];
 
-  paises.forEach((pais) => {
-    gridHTML += `
-      <div class="container-pais">
-        <div class="pais-nome">${pais.nome}</div>
-          <div id="wrapper-${pais.id}" class="wrapper-imagens">
-
-          <div class="imagem-container">
-            <a href="${pais.id}.html">
-              <img src="${pais.imagem_turismo}">
-            </a>
-          </div>
-      
-          <div class="imagem-container">
-            <a href="${pais.id}.html">
-              <img src="${pais.imagem_negocios}">
-            </a>
-          </div>
-      
-          <div class="imagem-container">
-            <a href="${pais.id}.html">
-              <img src="${pais.imagem_estudos}">
-            </a>
-          </div>
-
-            <div class="imagens-buttons">
-              <i id="${pais.id}" class="fa-solid fa-chevron-left anterior-button js-anterior-button"></i>
-
-              <i id="${pais.id}" class="fa-solid fa-chevron-right proximo-button js-proximo-button"></i>
-            </div>
-          </div>
-        <div class="pais-footer"></div>
+  banner.forEach((item) => {
+    imagemHTML += `
+      <div class="imagem-container">
+        <a href="${item.id}.html">
+          <img src="${item.imagem}">
+        </a>
       </div>
     `;
   });
 
-  document.querySelector('.js-grid').innerHTML = gridHTML;
+  document.querySelector('.js-grid').innerHTML = `
+    <div class="container-pais">
+        <div id="wrapper" class="wrapper-imagens">
+
+          ${imagemHTML}
+
+          <div class="imagens-buttons">
+            <i class="fa-solid fa-chevron-left anterior-button js-anterior-button"></i>
+
+            <i class="fa-solid fa-chevron-right proximo-button js-proximo-button"></i>
+          </div>
+        </div>
+    </div>
+  `;
 }
 
 
