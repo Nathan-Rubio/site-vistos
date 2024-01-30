@@ -34,7 +34,7 @@ function adicionarEventoImagemButtons() {
       const id = button.id;
       const wrapper = document.getElementById(`wrapper-${id}`);
       const screenWidth = window.innerWidth;
-      const index = Math.max(0, (wrapper.scrollLeft / screenWidth) - 1);
+      const index = Math.max(0, Math.round((wrapper.scrollLeft / screenWidth) - 1));
 
       wrapper.scrollTo({
         left: wrapper.scrollLeft - screenWidth,
@@ -53,7 +53,7 @@ function adicionarEventoImagemButtons() {
       const id = button.id;
       const wrapper = document.getElementById(`wrapper-${id}`);
       const screenWidth = window.innerWidth;
-      const index = Math.min(2, (wrapper.scrollLeft / screenWidth) + 1);
+      const index = Math.min(2, Math.round((wrapper.scrollLeft / screenWidth) + 1));
 
       wrapper.scrollTo({
         left: wrapper.scrollLeft + screenWidth,
