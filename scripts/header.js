@@ -19,9 +19,6 @@ export function criarHeaderHTML() {
         <a href="cidadania.html">
           <li>CIDADANIA</li>
         </a>
-        <li>ITEM 3</li>
-        <li>ITEM 4</li>
-        <li>ITEM 5</li>
       </ul>
     </header>
   `;
@@ -36,7 +33,9 @@ export function adicionarEventoNavMenu() {
     // Abre o menu
     if (menu.style.display === 'none' || menu.style.display === '') {
       menu.style.display = 'flex';
-      let margem = 100 + 180 + 20;
+      const quantidadeBotoes = 2;
+      const tamanhoBotao = 36;
+      let margem = 100 + (quantidadeBotoes * tamanhoBotao) + 20;
       margem = margem.toString();
       main.style.marginTop = `${margem}px`;
     }
