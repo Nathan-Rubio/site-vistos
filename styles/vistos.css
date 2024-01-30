@@ -20,6 +20,7 @@
   width: 100vw;
   height: 320px;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .pais-nome {
