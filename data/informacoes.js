@@ -2,29 +2,28 @@ export const informacoes = [
   {
     id: "china-turismo",
     informacoes: `
-    <div class="turismo-container">
-      <p>
-        VISITANTE
-      </p>
+    <div class="container-informacoes">
+      <div class="titulo">
+        TURISMO
+      </div>
 
       <p>
-        A CELESTINO poderá cuidar de todas as etapas do seu processo! 
+        A Splendor poderá cuidar de todas as etapas do seu processo! 
         Preencheremos o formulário oficial do consulado, pagaremos a taxa e daremos entrada no consulado chinês, 
         de acordo com a jurisdição de atendimento.
       </p>
 
-      <p>
-        OBS : Suspenso temporariamente, devido a pandemia. 
-      </p>
+      <div class="requisitos-titulo">
+        REQUISITOS:
+      </div>
 
       <ul class="lista">
         <li>
-          Passaporte com data de expiração superior a 6 meses da data da viagem.
-          Clique Aqui para solicitar a emissão do passaporte;
+          Passaporte com data de expiração superior a 6 meses da data da viagem;
         </li>
 
         <li>
-          Formulário preenchido (clique aqui) para acessar;
+          Formulário preenchido;
         </li>
 
         <li>
@@ -44,28 +43,26 @@ export const informacoes = [
         </li>
 
         <li>
-          Para empregados: 03 últimos holerites ou carta do empregador, em papel timbrado e com carimbo CNPJ, 
-          com a identificação do funcionário, a sua ocupação e data de registro. 
-          Contrate a CELESTINO para obter o nosso modelo conforme especificações do consulado;
+          <strong>Empregados:</strong> 03 últimos holerites ou carta do empregador, em papel timbrado e com carimbo CNPJ, 
+          com a identificação do funcionário, a sua ocupação e data de registro;
         </li>
 
         <li>
-          Para empregadores: carta da empresa, em papel timbrado e com carimbo CNPJ, 
-          com a identificação do proprietário e data de início das suas atividades. 
-          Contrate a CELESTINO para obter o nosso modelo conforme especificações do consulado;
+          <strong>Empregadores:</strong> carta da empresa, em papel timbrado e com carimbo CNPJ, 
+          com a identificação do proprietário e data de início das suas atividades;
         </li>
 
         <li>
-          Para estudantes: comprovante escolar, declaração de custeio e extratos bancários de um responsável;
+          <strong>Estudantes:</strong> comprovante escolar, declaração de custeio e extratos bancários de um responsável;
         </li>
 
         <li>
-          Para autônomos e profissionais liberais: extratos bancários e declaração, com firma reconhecida em cartório, 
-          explicando as atividades que exerce. Podemos ajudar a redigir esse conteúdo;
+          <strong>Autônomos e profissionais liberais:</strong> extratos bancários e declaração, com firma reconhecida em cartório, 
+          explicando as atividades que exerce;
         </li>
 
         <li>
-          Para estrangeiros: RNE original;
+          <strong>Estrangeiros:</strong> RNE original;
         </li>
 
         <li>
@@ -83,15 +80,9 @@ export const informacoes = [
       </ul>
 
       <p>
-        OBS: O Consulado em São Paulo atenderá os residentes de SP, PR, RS e SC. 
-        O atendimento em Brasília é reservado aos residentes das regiões Centro-Oeste e Norte. Rio de Janeiro, RJ, MG, ES, BA. 
-        Por fim, o consulado de Recife atenderá à região nordeste (com exceção da Bahia).<br><br>
-      </p>
-      
-      <p>
-        Prazo estimado: 5 dias úteis (normal) e 3 dias úteis (urgente).
-        Este é o prazo para pedidos feitos em São Paulo. 
-        Para o prazo nos demais estados, consulte-nos.
+        <strong>Atenção:</strong> O Consulado em São Paulo atenderá os residentes de SP, PR, RS e SC. 
+        <br><br>O atendimento em Brasília é reservado aos residentes das regiões Centro-Oeste e Norte, Rio de Janeiro, RJ, MG, ES, BA. 
+        <br><br>Por fim, o consulado de Recife atenderá à região nordeste (com exceção da Bahia).
       </p>
     </div>
     `
@@ -99,25 +90,30 @@ export const informacoes = [
   {
     id: "china-negocios",
     informacoes: `
-      <div class="turismo-container">
+      <div class="container-informacoes">
+        
+        <div class="titulo">
+          NEGÓCIOS
+        </div>
         
         <p>
-          NEGÓCIOS E VISITAS COMERCIAIS
-        </p>
-        
-        <p>
-          A CELESTINO poderá cuidar de todas as etapas do seu processo! 
-          Preencheremos o formulário oficial do consulado, pagaremos a taxa e daremos entrada no consulado chinês, 
+          A Splendor poderá cuidar de todas as etapas do seu processo! 
+          Preencheremos o formulário oficial do consulado, 
+          pagaremos a taxa e daremos entrada no consulado chinês, 
           de acordo com a jurisdição de atendimento.
         </p>
+
+        <div class="requisitos-titulo">
+          REQUISITOS:
+        </div>
         
         <ul class="lista">
           <li>
-            Passaporte com data de expiração superior a 6 meses da data da viagem. Clique Aqui para solicitar a emissão do passaporte;
+            Passaporte com data de expiração superior a 6 meses da data da viagem;
           </li>
 
           <li>
-            Formulário preenchido (clique aqui) para acessar;
+            Formulário preenchido;
           </li>
 
           <li>
@@ -133,16 +129,19 @@ export const informacoes = [
           </li>
 
           <li>
-            Carta do empregador solicitando o visto para negócios. A carta deverá ser redigida em papel timbrado, 
-            conter o carimbo CNPJ, identificar o solicitante, o seu cargo, data de admissão, além de explicar o motivo e data da viagem.  
-            Contrate a CELESTINO para obter o nosso modelo conforme especificações do consulado;
+            Carta do empregador solicitando o visto para negócios. 
+            A carta deverá ser redigida em papel timbrado, 
+            conter o carimbo CNPJ, identificar o solicitante, 
+            o seu cargo, data de admissão, além de explicar 
+            o motivo e data da viagem.  
           </li>
 
           <li>
-            Carta convite de uma empresa chinesa. A carta deverá ser redigida em papel timbrado, com o nome da organização em inglês e chinês. 
-            Além de identificar o convidado (com nome, passaporte, data de nascimento e sexo), 
-            a carta deverá explicar o motivo e a data do compromisso na China. 
-            Contrate a CELESTINO para obter o nosso modelo conforme especificações do consulado;
+            Carta convite de uma empresa chinesa. A carta deverá 
+            ser redigida em papel timbrado, com o nome da organização 
+            em inglês e chinês. Além de identificar o convidado 
+            (com nome, passaporte, data de nascimento e sexo), 
+            a carta deverá explicar o motivo e a data do compromisso na China.
           </li>
 
           <li>
@@ -150,40 +149,41 @@ export const informacoes = [
           </li>
 
           <li>
-            Para a Canton Fair: substitua a carta convite e registro comercial pelo convite oficial da feira.
+            <strong>Canton Fair:</strong> substitua a carta convite e 
+            registro comercial pelo convite oficial da feira.
           </li>
 
           <li>
-            Para estrangeiros: RNE original;
+            <strong>Estrangeiros:</strong> RNE original;
           </li>
 
           <li>
-            Para embarque há necessidade do certificado internacional de vacina contra febre amarela;
+            Para embarque há necessidade do certificado internacional 
+            de vacina contra febre amarela;
           </li>
 
           <li>
-            Documentos adicionais poderão ser solicitados a partir da análise do formulário do solicitante;
+            Documentos adicionais poderão ser solicitados a partir da 
+            análise do formulário do solicitante;
           </li>
 
           <li>
-            Recomendamos a contratação do seguro viagem, devido ao alto custo de tratamento médico do país. Clique Aqui para solicitar a cotação.
+            Recomendamos a contratação do seguro viagem, devido 
+            ao alto custo de tratamento médico do país.
           </li>
         </ul>
         
         <p>
-          OBS: O Consulado em São Paulo atenderá os residentes de SP, PR, RS e SC. 
-          O atendimento em Brasília é reservado aos residentes das regiões Centro-Oeste e Norte. 
-          Rio de Janeiro, RJ, MG, ES, BA. Por fim, o consulado de Recife atenderá à região nordeste (com exceção da Bahia).
+          <strong>Atenção:</strong> O Consulado em São Paulo atenderá os residentes de SP, PR, RS e SC. 
+          <br><br>O atendimento em Brasília é reservado aos residentes das regiões Centro-Oeste e Norte, Rio de Janeiro, RJ, MG, ES, BA. 
+          <br><br>Por fim, o consulado de Recife atenderá à região nordeste (com exceção da Bahia).
         </p>
         
         <p>
-          Os solicitantes de visto para China, devem comparecer no Consulado pessoalmente, 
-          munido com a documentação acima exigida para fazer a coleta biométrica e dar entrada no processo. 
-        </p>
-
-        <p>
-          Prazo estimado: 7 dias úteis (normal), podendo esse prazo ser alterado, devido a alto demanda. 
-          Este é o prazo para pedidos feitos em São Paulo. Para o prazo nos demais estados, consulte-nos.
+          Os solicitantes de visto para China, devem 
+          comparecer no Consulado pessoalmente, munido 
+          com a documentação acima exigida para fazer 
+          a coleta biométrica e dar entrada no processo. 
         </p>
       </div>
     `
@@ -191,25 +191,29 @@ export const informacoes = [
   {
     id: "china-estudos",
     informacoes: `
-      <div class="turismo-container">
+      <div class="container-informacoes">
           
-      <p>
-        NEGÓCIOS E VISITAS COMERCIAIS
-      </p>
+      <div class="titulo">
+        ESTUDOS
+      </div>
       
       <p>
-        A CELESTINO poderá cuidar de todas as etapas do seu processo! 
+        A Splendor poderá cuidar de todas as etapas do seu processo! 
         Preencheremos o formulário oficial do consulado, pagaremos a taxa e daremos entrada no consulado chinês, 
         de acordo com a jurisdição de atendimento.
       </p>
+
+      <div class="requisitos-titulo">
+        REQUISITOS:
+      </div>
       
       <ul class="lista">
         <li>
-          Passaporte com data de expiração superior a 6 meses da data da viagem. Clique Aqui para solicitar a emissão do passaporte;
+          Passaporte com data de expiração superior a 6 meses da data da viagem;
         </li>
 
         <li>
-          Formulário preenchido (clique aqui) para acessar;
+          Formulário preenchido;
         </li>
 
         <li>
@@ -225,57 +229,60 @@ export const informacoes = [
         </li>
 
         <li>
-          Carta do empregador solicitando o visto para negócios. A carta deverá ser redigida em papel timbrado, 
-          conter o carimbo CNPJ, identificar o solicitante, o seu cargo, data de admissão, além de explicar o motivo e data da viagem.  
-          Contrate a CELESTINO para obter o nosso modelo conforme especificações do consulado;
+          <strong>Empregados:</strong> 03 últimos holerites ou carta do empregador, 
+          em papel timbrado e com carimbo CNPJ, com a identificação do funcionário, 
+          a sua ocupação e data de registro.
         </li>
 
         <li>
-          Carta convite de uma empresa chinesa. A carta deverá ser redigida em papel timbrado, com o nome da organização em inglês e chinês. 
-          Além de identificar o convidado (com nome, passaporte, data de nascimento e sexo), 
-          a carta deverá explicar o motivo e a data do compromisso na China. 
-          Contrate a CELESTINO para obter o nosso modelo conforme especificações do consulado;
+          <strong>Empregadores:</strong> carta da empresa, em papel timbrado e com carimbo CNPJ, 
+          com a identificação do proprietário e data de início das suas atividades;
         </li>
 
         <li>
-          Registro Comercial (Business License) da empresa convidadora chinesa;
+          <strong>Estudantes:</strong> comprovante escolar, declaração de custeio e 
+          extratos bancários de um responsável;
         </li>
 
         <li>
-          Para a Canton Fair: substitua a carta convite e registro comercial pelo convite oficial da feira.
+          Extratos bancários dos últimos 3 meses;
         </li>
 
         <li>
-          Para estrangeiros: RNE original;
+          <strong>Estrangeiros:</strong> RNE original;
         </li>
 
         <li>
-          Para embarque há necessidade do certificado internacional de vacina contra febre amarela;
+          Para embarque há necessidade do certificado internacional de 
+          vacina contra febre amarela;
         </li>
 
         <li>
-          Documentos adicionais poderão ser solicitados a partir da análise do formulário do solicitante;
+          Documentos adicionais poderão ser solicitados a partir da análise do 
+          formulário do solicitante;
         </li>
 
         <li>
-          Recomendamos a contratação do seguro viagem, devido ao alto custo de tratamento médico do país. Clique Aqui para solicitar a cotação.
+          Recomendamos a contratação do seguro viagem, devido ao alto custo 
+          de tratamento médico do país;
         </li>
       </ul>
       
       <p>
-        OBS: O Consulado em São Paulo atenderá os residentes de SP, PR, RS e SC. 
-        O atendimento em Brasília é reservado aos residentes das regiões Centro-Oeste e Norte. 
-        Rio de Janeiro, RJ, MG, ES, BA. Por fim, o consulado de Recife atenderá à região nordeste (com exceção da Bahia).
+        <strong>Atenção:</strong> O Consulado em São Paulo atenderá 
+        os residentes de SP, PR, RS e SC. 
+
+        <br><br>O atendimento em Brasília é reservado aos residentes 
+        das regiões Centro-Oeste e Norte, Rio de Janeiro, RJ, MG, ES, BA. 
+
+        <br><br>Por fim, o consulado de Recife atenderá à 
+        região nordeste (com exceção da Bahia).
       </p>
       
       <p>
         Os solicitantes de visto para China, devem comparecer no Consulado pessoalmente, 
-        munido com a documentação acima exigida para fazer a coleta biométrica e dar entrada no processo. 
-      </p>
-
-      <p>
-        Prazo estimado: 7 dias úteis (normal), podendo esse prazo ser alterado, devido a alto demanda. 
-        Este é o prazo para pedidos feitos em São Paulo. Para o prazo nos demais estados, consulte-nos.
+        munido com a documentação acima exigida para fazer a coleta biométrica 
+        e dar entrada no processo. 
       </p>
     </div>
     `
@@ -283,7 +290,7 @@ export const informacoes = [
   {
     id: "eua-turismo",
     informacoes: `
-      <div class="turismo-container">
+      <div class="container-informacoes">
         <p>
           Relação de documentos para emissão e renovação do visto americano
         </p>
@@ -292,7 +299,7 @@ export const informacoes = [
           O processo de solicitação de visto americano envolve
            diversas etapas e múltiplas categorias de visto. 
           Evite custos desnecessários, perda de tempo e riscos. 
-          Conte com a experiência dos Especialistas da Celestino Assessoria.
+          Conte com a experiência dos Especialistas da Splendor Assessoria.
         </p>
 
         <ul>
@@ -381,7 +388,7 @@ export const informacoes = [
 
         <p>
           ATENÇÃO: A lista de documentos a serem apresentados ao Consulado dependerá 
-          da análise de cada caso pelo Especialista da Celestino, podendo inclusive 
+          da análise de cada caso pelo Especialista da Splendor, podendo inclusive 
           ser solicitado documentos adicionais aos acima relacionados.
         </p>
 
@@ -404,7 +411,7 @@ export const informacoes = [
   {
     id: "eua-negocios",
     informacoes: `
-      <div class="turismo-container">
+      <div class="container-informacoes">
         <p>
           Relação de documentos para emissão e renovação do visto americano
         </p>
@@ -412,7 +419,7 @@ export const informacoes = [
         <p>
           O processo de solicitação de visto americano envolve diversas 
           etapas e múltiplas categorias de visto. Evite custos desnecessários, 
-          perda de tempo e riscos. Conte com a experiência dos Especialistas da Celestino Assessoria.
+          perda de tempo e riscos. Conte com a experiência dos Especialistas da Splendor Assessoria.
         </p>
 
         <ul>
@@ -500,7 +507,7 @@ export const informacoes = [
 
         <p>
           ATENÇÃO: A lista de documentos a serem apresentados ao Consulado 
-          dependerá da análise de cada caso pelo Especialista da Celestino, 
+          dependerá da análise de cada caso pelo Especialista da Splendor, 
           podendo inclusive ser solicitado documentos adicionais aos acima relacionados.
         </p>
       </div>
@@ -509,7 +516,7 @@ export const informacoes = [
   {
     id: "eua-estudos",
     informacoes: `
-      <div class="turismo-container">
+      <div class="container-informacoes">
         <p>
           Relação de documentos para emissão e renovação do visto americano
         </p>
@@ -517,7 +524,7 @@ export const informacoes = [
         <p>
           O processo de solicitação de visto americano envolve diversas 
           etapas e múltiplas categorias de visto. Evite custos desnecessários, 
-          perda de tempo e riscos. Conte com a experiência dos Especialistas da Celestino Assessoria.
+          perda de tempo e riscos. Conte com a experiência dos Especialistas da Splendor Assessoria.
         </p>
 
         <ul>
@@ -610,7 +617,7 @@ export const informacoes = [
 
         <p>
           ATENÇÃO: A lista de documentos a serem apresentados ao Consulado 
-          dependerá da análise de cada caso pelo Especialista da Celestino, 
+          dependerá da análise de cada caso pelo Especialista da Splendor, 
           podendo inclusive ser solicitado documentos adicionais aos acima relacionados.
         </p>
       </div>
@@ -619,7 +626,7 @@ export const informacoes = [
   {
     id: "canada-turismo",
     informacoes: `
-      <div class="turismo-container">
+      <div class="container-informacoes">
         <p>
           RESIDENTE TEMPORÁRIO
         </p>
@@ -639,7 +646,7 @@ export const informacoes = [
 
           <li>
             Formulário preenchido, (Clique aqui) para acessar. 
-            Os formulários oficiais, em inglês, serão redigidos pela CELESTINO 
+            Os formulários oficiais, em inglês, serão redigidos pela Splendor 
             e entregues para assinatura do solicitante. Um deles deverá ter 
             firma reconhecida em cartório;
           </li>
@@ -663,7 +670,7 @@ export const informacoes = [
 
           <li>
             Extrato bancário dos últimos 3 meses do solicitante ou patrocinador. 
-            Para atender às exigências do consulado, a CELESTINO analisará a 
+            Para atender às exigências do consulado, a Splendor analisará a 
             movimentação e saldo financeiro no decorrer do processo;
           </li>
 
@@ -735,7 +742,7 @@ export const informacoes = [
   {
     id: "canada-negocios",
     informacoes: `
-      <div class="turismo-container">
+      <div class="container-informacoes">
         <p>
           RESIDENTE TEMPORÁRIO
         </p>
@@ -756,7 +763,7 @@ export const informacoes = [
 
           <li>
             Formulário preenchido, (Clique aqui) para acessar. 
-            Os formulários oficiais, em inglês, serão redigidos pela CELESTINO 
+            Os formulários oficiais, em inglês, serão redigidos pela Splendor 
             e entregues para assinatura do solicitante. Um deles deverá ter 
             firma reconhecida em cartório;
           </li>
@@ -780,13 +787,13 @@ export const informacoes = [
 
           <li>
             Extrato bancário dos últimos 3 meses do solicitante ou patrocinador. 
-            Para atender às exigências do consulado, a CELESTINO analisará a 
+            Para atender às exigências do consulado, a Splendor analisará a 
             movimentação e saldo financeiro no decorrer do processo;
           </li>
 
           <li>
             Carta emitida pelo empregador solicitando o visto de negócios. 
-            Contrate a CELESTINO para obter o nosso modelo personalizado;
+            Contrate a Splendor para obter o nosso modelo personalizado;
           </li>
 
           <li>
@@ -861,7 +868,7 @@ export const informacoes = [
   {
     id: "canada-estudos",
     informacoes: `
-    <div class="turismo-container">
+      <div class="container-informacoes">
         <p>
           PERMISSÃO DE ESTUDOS
         </p>
@@ -881,7 +888,7 @@ export const informacoes = [
 
           <li>
             Formulário preenchido, (Clique aqui) para acessar. 
-            Os formulários oficiais, em inglês, serão redigidos pela CELESTINO 
+            Os formulários oficiais, em inglês, serão redigidos pela Splendor 
             e entregues para assinatura do solicitante. Um deles deverá ter 
             firma reconhecida em cartório;
           </li>
@@ -915,7 +922,7 @@ export const informacoes = [
 
           <li>
             Extrato bancário dos últimos 3 meses do solicitante ou patrocinador. 
-            Para atender às exigências do consulado, a CELESTINO analisará a 
+            Para atender às exigências do consulado, a Splendor analisará a 
             movimentação e saldo financeiro no decorrer do processo;
           </li>
 

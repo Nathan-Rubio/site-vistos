@@ -9,23 +9,49 @@
   display: flex;
 }
 
-.turismo-container {
+.container-informacoes {
   display: flex;
   flex-direction: column;
   text-align: justify;
   border: 1px solid var(--principal);
-  padding: 0 5vw;
+  border-radius: 5px;
   margin-left: 5vw;
   min-width: 90vw;
   box-sizing: border-box;
 }
 
+.titulo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--branco);
+  background-color: var(--principal);
+}
+
+.container-informacoes p {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.requisitos-titulo {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
 .lista {
+  padding-inline-start: 30px;
+  margin-right: 10px;
   list-style-type: disc;
 }
 
 .lista li {
-  margin-bottom: 1vh;
+  margin: 2vh;
 }
 
 .formulario-button {
