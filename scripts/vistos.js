@@ -4,6 +4,29 @@ import { criarFooterHTML } from "./footer.js";
 
 // FUNÇÕES //
 
+// atualiza qual dot vai ser ativado
+function atualizarDots(id, index) {
+  const dots = document.getElementById(`owl-dots-${id}`);
+  const buttons = dots.querySelectorAll('button');
+
+  buttons.forEach((dot, i) => {
+    if (i === index) {
+      dot.classList.add('ativo');
+    } else {
+      dot.classList.remove('ativo');
+    }
+  });
+}
+
+// Inicializa os dots no indice 0
+function InicializarDots() {
+  const paises = paisesVistos;
+
+  paises.forEach((pais) => {
+    atualizarDots(`${pais.id}`, 0);
+  });
+}
+
 // Adiciona o movimento do carrossel de imagens no grid
 function adicionarEventoImagemButtons() {
   document.querySelectorAll('.js-anterior-button').forEach((button) => {
@@ -11,29 +34,40 @@ function adicionarEventoImagemButtons() {
       const id = button.id;
       const wrapper = document.getElementById(`wrapper-${id}`);
       const screenWidth = window.innerWidth;
-  
+      const index = Math.max(0, (wrapper.scrollLeft / screenWidth) - 1);
+
       wrapper.scrollTo({
         left: wrapper.scrollLeft - screenWidth,
         top: 0,
-        behavior: "smooth"
+        behavior: 'smooth',
       });
+
+      console.log(index);
+
+      atualizarDots(id, index);
     });
   });
-  
+
   document.querySelectorAll('.js-proximo-button').forEach((button) => {
     button.addEventListener('click', () => {
       const id = button.id;
       const wrapper = document.getElementById(`wrapper-${id}`);
       const screenWidth = window.innerWidth;
-  
+      const index = Math.min(2, (wrapper.scrollLeft / screenWidth) + 1);
+
       wrapper.scrollTo({
         left: wrapper.scrollLeft + screenWidth,
         top: 0,
-        behavior: "smooth"
+        behavior: 'smooth',
       });
+
+      console.log(index);
+
+      atualizarDots(id, index);
     });
   });
 }
+
 
 // Cria o HTML do Grid
 function criarGridHTML() {
@@ -45,7 +79,8 @@ function criarGridHTML() {
     gridHTML += `
       <div class="container-pais">
         <div class="pais-nome">${pais.nome}</div>
-          <div id="wrapper-${pais.id}" class="wrapper-imagens">
+
+        <div id="wrapper-${pais.id}" class="wrapper-imagens">
 
           <div class="imagem-container">
             <a href="${pais.id}.html">
@@ -63,14 +98,23 @@ function criarGridHTML() {
             <a href="${pais.id}.html">
               <img src="${pais.imagem_estudos}">
             </a>
-          </div>
+          </div>  
+        </div>
 
-            <div class="imagens-buttons">
-              <i id="${pais.id}" class="fa-solid fa-chevron-left anterior-button js-anterior-button"></i>
+        <div class="imagens-buttons">
+            <i id="${pais.id}" class="fa-solid fa-chevron-left anterior-button js-anterior-button"></i>
 
-              <i id="${pais.id}" class="fa-solid fa-chevron-right proximo-button js-proximo-button"></i>
-            </div>
-          </div>
+            <i id="${pais.id}" class="fa-solid fa-chevron-right proximo-button js-proximo-button"></i>
+        </div>
+
+        <div id="owl-dots-${pais.id}" class="owl-dots">
+            <button></button>
+
+            <button></button>
+
+            <button></button>
+        </div>
+
         <div class="pais-footer"></div>
       </div>
     `;
@@ -90,3 +134,4 @@ criarGridHTML();
 criarFooterHTML();
 adicionarEventoNavMenu();
 adicionarEventoImagemButtons();
+InicializarDots();
