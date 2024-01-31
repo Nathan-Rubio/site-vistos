@@ -1,4 +1,5 @@
 export const informacoes = [
+  //------------ CHINA --------------//
   {
     id: "china-turismo",
     informacoes: `
@@ -287,25 +288,34 @@ export const informacoes = [
     </div>
     `
   },
+  //------------ EUA --------------//
   {
     id: "eua-turismo",
     informacoes: `
       <div class="container-informacoes">
+
+        <div class="titulo">
+          TURISMO
+        </div>
+
         <p>
           Relação de documentos para emissão e renovação do visto americano
         </p>
 
         <p>
-          O processo de solicitação de visto americano envolve
-           diversas etapas e múltiplas categorias de visto. 
+          O processo de solicitação de visto americano envolve 
+          diversas etapas e múltiplas categorias de visto. 
           Evite custos desnecessários, perda de tempo e riscos. 
           Conte com a experiência dos Especialistas da Splendor Assessoria.
         </p>
 
-        <ul>
+        <div class="requisitos-titulo">
+          REQUISITOS:
+        </div>
+
+        <ul class="lista">
           <li>
             Passaporte com data de expiração superior a 6 meses da data da viagem. 
-            Clique Aqui para solicitar a emissão do passaporte;
           </li>
 
           <li>
@@ -313,7 +323,7 @@ export const informacoes = [
           </li>
 
           <li>
-            Formulário DS 160 (clique aqui) integralmente preenchido;
+            Formulário DS 160 integralmente preenchido;
           </li>
 
           <li>
@@ -337,31 +347,31 @@ export const informacoes = [
           </li>
 
           <li>
-            Carteira de Trabalho atualizada (se empregado);
+            <strong>Empregado:</strong> carteira de Trabalho atualizada;
           </li>
 
           <li>
-            Últimos 3 holerites ou comprovantes de renda (se empregado);
+            <strong>Empregado:</strong> últimos 3 holerites ou comprovantes de renda;
           </li>
 
           <li>
-            Declaração do Imposto de Renda Pessoa Jurídica Original (se empregador);
+            <strong>Empregador:</strong> declaração do Imposto de Renda Pessoa Jurídica Original;
           </li>
 
           <li>
-            Contrato Social (se empregador);
+            <strong>Empregador:</strong> contrato Social;
           </li>
 
           <li>
-            Últimos 3 pró-labores ou equivalente (se empregador);
+            <strong>Empregador:</strong> Últimos 3 pró-labores ou equivalente;
           </li>
 
           <li>
-            Cópia do cartão do CNPJ (se empregador);
+            <strong>Empregador:</strong> cópia do cartão do CNPJ;
           </li>
 
           <li>
-            Comprovante de matrícula escolar com 3 últimos boletos (se estudante);
+            <strong>Estudante:</strong> comprovante de matrícula escolar com 3 últimos boletos;
           </li>
 
           <li>
@@ -371,7 +381,7 @@ export const informacoes = [
 
           <li>
             Caso possua cidadania ou nacionalidade em um país qualificado ao programa 
-            Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA (clique aqui);
+            Visa Waiver Program, solicitar Autorização Eletrônica de Viagem – ESTA;
           </li>
         
         </ul>
@@ -379,39 +389,27 @@ export const informacoes = [
         <P>
           Demais documentos necessários serão informados após o recebimento de 
           seu formulário e agendamento de entrevista.
+
+          <br><br>A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem.
         </p>
 
         <p>
-         A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem, 
-         Clique Aqui para garantir que nada atrapalhe o motivo principal de sua viagem.
-        </p>
-
-        <p>
-          ATENÇÃO: A lista de documentos a serem apresentados ao Consulado dependerá 
+          <strong>Atenção:</strong> a lista de documentos a serem apresentados ao Consulado dependerá 
           da análise de cada caso pelo Especialista da Splendor, podendo inclusive 
           ser solicitado documentos adicionais aos acima relacionados.
         </p>
-
-        <p>
-          Prazo estimado para devolução do passaporte pelo Consulado em 
-          caso de concessão do visto: 10 dias úteis após a entrevista.
-        </p>
       </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
     `
   },
   {
     id: "eua-negocios",
     informacoes: `
       <div class="container-informacoes">
+
+        <div class="titulo">
+          NEGÓCIOS
+        </div>
+
         <p>
           Relação de documentos para emissão e renovação do visto americano
         </p>
@@ -422,7 +420,11 @@ export const informacoes = [
           perda de tempo e riscos. Conte com a experiência dos Especialistas da Splendor Assessoria.
         </p>
 
-        <ul>
+        <div class="requisitos-titulo">
+          REQUISITOS:
+        </div>
+
+        <ul class="lista">
           <li>
             Passaporte com data de expiração superior a 6 meses da data da viagem. Clique Aqui para solicitar a emissão do passaporte;
           </li>
@@ -464,51 +466,47 @@ export const informacoes = [
           </li>
 
           <li>
-            Carteira de Trabalho atualizada (se empregado);
+            <strong>Empregado:</strong> carteira de Trabalho atualizada;
           </li>
 
           <li>
-          Últimos 3 holerites ou comprovantes de renda (se empregado);
+            <strong>Empregado:</strong> últimos 3 holerites ou comprovantes de renda;
           </li>
 
           <li>
-            Declaração do Imposto de Renda Pessoa Jurídica Original (se empregador);
+            <strong>Empregador:</strong> declaração do Imposto de Renda Pessoa Jurídica Original;
           </li>
 
           <li>
-            Contrato Social (se empregador);
+            <strong>Empregador:</strong> contrato Social;
           </li>
 
           <li>
-            Últimos 3 pró-labores ou equivalente (se empregador);
+            <strong>Empregador:</strong> Últimos 3 pró-labores ou equivalente;
           </li>
 
           <li>
-            Cópia do cartão do CNPJ (se empregador);
+            <strong>Empregador:</strong> cópia do cartão do CNPJ;
           </li>
 
           <li>
             Caso possua cidadania ou nacionalidade em um país qualificado ao programa 
-            Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA (clique aqui);
+            Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA;
           </li>
         
         </ul>
 
-        <p>
-          Demais documentos necessários serão informados após o recebimento de seu formulário e agendamento de entrevista.
-          A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem, 
-          Clique Aqui para garantir que nada atrapalhe o motivo principal de sua viagem.
+        <P>
+          Demais documentos necessários serão informados após o recebimento de 
+          seu formulário e agendamento de entrevista.
+
+          <br><br>A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem.
         </p>
 
         <p>
-          Prazo estimado para devolução do passaporte pelo Consulado 
-          em caso de concessão do visto: 10 dias úteis após a entrevista.
-        </p>
-
-        <p>
-          ATENÇÃO: A lista de documentos a serem apresentados ao Consulado 
-          dependerá da análise de cada caso pelo Especialista da Splendor, 
-          podendo inclusive ser solicitado documentos adicionais aos acima relacionados.
+          <strong>Atenção:</strong> a lista de documentos a serem apresentados ao Consulado dependerá 
+          da análise de cada caso pelo Especialista da Splendor, podendo inclusive 
+          ser solicitado documentos adicionais aos acima relacionados.
         </p>
       </div>
     `
@@ -517,6 +515,11 @@ export const informacoes = [
     id: "eua-estudos",
     informacoes: `
       <div class="container-informacoes">
+
+        <div class="titulo">
+          ESTUDOS
+        </div>
+
         <p>
           Relação de documentos para emissão e renovação do visto americano
         </p>
@@ -527,9 +530,13 @@ export const informacoes = [
           perda de tempo e riscos. Conte com a experiência dos Especialistas da Splendor Assessoria.
         </p>
 
-        <ul>
+        <div class="requisitos-titulo">
+          REQUISITOS:
+        </div>
+
+        <ul class="lista">
           <li>
-            Passaporte com data de expiração superior a 6 meses da data da viagem. Clique Aqui para solicitar a emissão do passaporte;
+            Passaporte com data de expiração superior a 6 meses da data da viagem.;
           </li>
 
           <li>
@@ -537,7 +544,7 @@ export const informacoes = [
           </li>
 
           <li>
-            Formulário DS 160 (clique aqui) integralmente preenchido;
+            Formulário DS 160 integralmente preenchido;
           </li>
 
           <li>
@@ -562,34 +569,34 @@ export const informacoes = [
 
           <li>
             Declaração de Imposto de Renda completo;
+          </li>      
+
+          <li>
+            <strong>Empregado:</strong> carteira de Trabalho atualizada;
           </li>
 
           <li>
-            Carteira de Trabalho atualizada (se empregado);
+            <strong>Empregado:</strong> últimos 3 holerites ou comprovantes de renda;
           </li>
 
           <li>
-            Últimos 3 holerites ou comprovantes de renda (se empregado);
+            <strong>Empregador:</strong> declaração do Imposto de Renda Pessoa Jurídica Original;
           </li>
 
           <li>
-            Comprovante de matrícula escolar com 3 últimos boletos (se estudante);
+            <strong>Empregador:</strong> contrato Social;
           </li>
 
           <li>
-            Declaração do Imposto de Renda Pessoa Jurídica Original (se empregador);
+            <strong>Empregador:</strong> Últimos 3 pró-labores ou equivalente;
           </li>
 
           <li>
-            Contrato Social (se empregador);
+            <strong>Empregador:</strong> cópia do cartão do CNPJ;
           </li>
 
           <li>
-            Últimos 3 pró-labores ou equivalente (se empregador);
-          </li>
-
-          <li>
-            Cópia do cartão do CNPJ (se empregador);
+            <strong>Estudante:</strong> comprovante de matrícula escolar com 3 últimos boletos;
           </li>
 
           <li>
@@ -599,53 +606,56 @@ export const informacoes = [
 
           <li>
             Caso possua cidadania ou nacionalidade em um país qualificado ao programa 
-            Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA (clique aqui);
+            Visa Waiver Program,solicitar Autorização Eletrônica de Viagem – ESTA;
           </li>
         
         </ul>
 
-        <p>
-          Demais documentos necessários serão informados após o recebimento de seu formulário e agendamento de entrevista.
-          A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem, 
-          Clique Aqui para garantir que nada atrapalhe o motivo principal de sua viagem.
+        <P>
+          Demais documentos necessários serão informados após o recebimento de 
+          seu formulário e agendamento de entrevista.
+
+          <br><br>A segurança sempre vem em primeiro lugar, então, faça a cotação de um seguro viagem.
         </p>
 
         <p>
-          Prazo estimado para devolução do passaporte pelo Consulado 
-          em caso de concessão do visto: 10 dias úteis após a entrevista.
-        </p>
-
-        <p>
-          ATENÇÃO: A lista de documentos a serem apresentados ao Consulado 
-          dependerá da análise de cada caso pelo Especialista da Splendor, 
-          podendo inclusive ser solicitado documentos adicionais aos acima relacionados.
+          <strong>Atenção:</strong> a lista de documentos a serem apresentados ao Consulado dependerá 
+          da análise de cada caso pelo Especialista da Splendor, podendo inclusive 
+          ser solicitado documentos adicionais aos acima relacionados.
         </p>
       </div>
     `
   },
+  //------------ CANADA --------------//
   {
     id: "canada-turismo",
     informacoes: `
       <div class="container-informacoes">
-        <p>
-          RESIDENTE TEMPORÁRIO
-        </p>
+
+        <div class="titulo">
+          TURISMO
+        </div>
 
         <p>
-          Este visto é ideal para aqueles que irão ao Canadá participar de reuniões pontuais, 
-          conferências, visitas técnicas breves etc. O processo de visto do Canadá requer 
-          comparecimento do solicitante, sob horário marcado, para coleta biométrica. 
-          A aplicação de visto em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
+          Além do turismo, esse visto pode ser solicitado para trânsito e 
+          cursos de idiomas de até 6 meses. O processo de visto do Canadá 
+          requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. 
+
+          <br><br>A aplicação em papel está suspensa por tempo indeterminado no Brasil , 
+          prevalecendo a aplicação de visto eletrônica.
         </p>
 
-        <ul>
+        <div class="requisitos-titulo">
+          REQUISITOS:
+        </div>
+
+        <ul class="lista">
           <li>
-            Passaporte com data de expiração superior a 6 meses da data de viagem.
-            Clique Aqui para solicitar a emissão do passaporte;
+            Passaporte com data de expiração superior a 6 meses da data de viagem;
           </li>
 
           <li>
-            Formulário preenchido, (Clique aqui) para acessar. 
+            Formulário preenchido. 
             Os formulários oficiais, em inglês, serão redigidos pela Splendor 
             e entregues para assinatura do solicitante. Um deles deverá ter 
             firma reconhecida em cartório;
@@ -679,37 +689,38 @@ export const informacoes = [
           </li>
 
           <li>
-            Para empregados: holerites dos últimos 3 meses do solicitante ou patrocinador;
+            <strong>Empregados:</strong> holerites dos últimos 3 meses do solicitante ou patrocinador;
           </li>
 
           <li>
-            Para empregadores: contrato social e pró-labores (ou decores) 
+            <strong>Empregador:</strong> contrato social e pró-labores (ou decores) 
             dos últimos 3 meses do solicitante ou patrocinador;
           </li>
           
           <li>
-            Para estudantes: declaração de matrícula da escola;
+            <strong>Estudante:</strong> declaração de matrícula da escola;
           </li>
 
           <li>
-            Para aposentado: Últimos 3 comprovantes de recebimento do INSS;
-          </li>
-          
-          <li>
-            Se houver amigos ou parentes no Canadá: carta convite e comprovação de status do convidador;
+            <strong>Aposentado:</strong> últimos 3 comprovantes de recebimento do INSS;
           </li>
 
           <li>
-            Para cursos de idiomas de até 6 meses: carta de aceitação do curso (LOA);
+            <strong>Cursos de idioma (até 6 meses)</strong>: carta de aceitação do curso (LOA);
           </li>
           
           <li>
-            Para menores desacompanhados: autorização de viagem assinada pelos pais 
+            <strong>Menores Desacompanhados:</strong> autorização de viagem assinada pelos pais 
             com firma reconhecida em cartório;
           </li>
 
           <li>
-            Para menores desacompanhados (fazer curso): carta de custódia emitida por um tutor no Canadá;
+            <strong>Menores Desacompanhados:</strong> carta de custódia 
+            emitida por um tutor no Canadá;
+          </li>
+
+          <li>
+            Se houver amigos ou parentes no Canadá: carta convite e comprovação de status do convidador;
           </li>
           
           <li>
@@ -729,12 +740,8 @@ export const informacoes = [
         </p>
 
         <p>
-          OBS: menores de 14 anos, maiores de 79 anos e solicitantes 
+          <strong>Atenção:</strong> menores de 14 anos, maiores de 79 anos e solicitantes 
           de um visto de trânsito com destino aos EUA estão isentos da coleta biométrica.
-        </p>
-
-        <p>
-          Prazo estimado: 120 dias úteis a partir da biometria
         </p>
       </div>
     `
@@ -743,26 +750,29 @@ export const informacoes = [
     id: "canada-negocios",
     informacoes: `
       <div class="container-informacoes">
-        <p>
-          RESIDENTE TEMPORÁRIO
-        </p>
+        <div class="titulo">
+          NEGÓCIOS
+        </div>
 
         <p>
-          Além do turismo, esse visto pode ser solicitado para trânsito e 
-          cursos de idiomas de até 6 meses. O processo de visto do Canadá 
-          requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. 
-          A aplicação em papel está suspensa por tempo indeterminado no Brasil , 
-          prevalecendo a aplicação de visto eletrônica.
+          Este visto é ideal para aqueles que irão ao Canadá participar de reuniões pontuais, 
+          conferências, visitas técnicas breves etc. O processo de visto do Canadá requer comparecimento 
+          do solicitante, sob horário marcado, para coleta biométrica. 
+          
+          <br><br>A aplicação de visto em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
         </p>
 
-        <ul>
+        <div class="requisitos-titulo">
+          REQUISITOS:
+        </div>
+
+        <ul class="lista">
           <li>
             Passaporte com data de expiração superior a 6 meses da data de viagem.
-            Clique Aqui para solicitar a emissão do passaporte;
           </li>
 
           <li>
-            Formulário preenchido, (Clique aqui) para acessar. 
+            Formulário preenchido.
             Os formulários oficiais, em inglês, serão redigidos pela Splendor 
             e entregues para assinatura do solicitante. Um deles deverá ter 
             firma reconhecida em cartório;
@@ -805,42 +815,24 @@ export const informacoes = [
           </li>
 
           <li>
-            Para empregados: holerites dos últimos 3 meses do solicitante ou patrocinador;
+            <strong>Empregados:</strong> holerites dos últimos 3 meses do solicitante ou patrocinador;
           </li>
 
           <li>
-            Para empregadores: contrato social e pró-labores (ou decores) 
+            <strong>Empregador:</strong> contrato social e pró-labores (ou decores) 
             dos últimos 3 meses do solicitante ou patrocinador;
           </li>
           
           <li>
-            Para estudantes: declaração de matrícula da escola;
+            <strong>Estudante:</strong> declaração de matrícula da escola;
           </li>
 
           <li>
-            Para aposentado: Últimos 3 comprovantes de recebimento do INSS;
+            <strong>Aposentado:</strong> últimos 3 comprovantes de recebimento do INSS;
           </li>
           
           <li>
-            Se houver amigos ou parentes no Canadá: carta convite e comprovação de status do convidador;
-          </li>
-
-          <li>
-            Para cursos de idiomas de até 6 meses: carta de aceitação do curso (LOA);
-          </li>
-          
-          <li>
-            Para menores desacompanhados: autorização de viagem assinada pelos pais 
-            com firma reconhecida em cartório;
-          </li>
-
-          <li>
-            Para menores desacompanhados (fazer curso): carta de custódia emitida por um tutor no Canadá;
-          </li>
-          
-          <li>
-            Recomendamos a contratação do seguro viagem, devido o alto custo médico do país. 
-            Clique Aqui para solicitar a cotação do seguro viagem;
+            Recomendamos a contratação do seguro viagem, devido o alto custo médico do país;
           </li>
         </ul>
 
@@ -855,12 +847,8 @@ export const informacoes = [
         </p>
 
         <p>
-          OBS: menores de 14 anos, maiores de 79 anos e solicitantes 
+          <strong>Atenção:</strong> menores de 14 anos, maiores de 79 anos e solicitantes 
           de um visto de trânsito com destino aos EUA estão isentos da coleta biométrica.
-        </p>
-
-        <p>
-          Prazo estimado: 120 dias úteis a partir da biometria
         </p>
       </div>
     `
@@ -869,26 +857,29 @@ export const informacoes = [
     id: "canada-estudos",
     informacoes: `
       <div class="container-informacoes">
-        <p>
-          PERMISSÃO DE ESTUDOS
-        </p>
+        <div class="titulo">
+          ESTUDOS
+        </div>
 
         <p>
           Ideal, sobretudo, para aqueles que estudarão idiomas por mais de 6 meses, 
           farão o seu High School, College ou University. O processo de visto do Canadá 
           requer comparecimento do solicitante, sob horário marcado, para coleta biométrica. 
-          A aplicação em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
+
+          <br><br>A aplicação em papel está suspensa por tempo indeterminado, prevalecendo a aplicação eletrônica.
         </p>
 
-        <ul>
+        <div class="requisitos-titulo">
+          REQUISITOS:
+        </div>
+
+        <ul class="lista">
           <li>
             Passaporte com data de expiração superior a 6 meses da data de viagem.
-            Clique Aqui para solicitar a emissão do passaporte;
           </li>
 
           <li>
-            Formulário preenchido, (Clique aqui) para acessar. 
-            Os formulários oficiais, em inglês, serão redigidos pela Splendor 
+            Formulário preenchido. Os formulários oficiais, em inglês, serão redigidos pela Splendor 
             e entregues para assinatura do solicitante. Um deles deverá ter 
             firma reconhecida em cartório;
           </li>
@@ -911,8 +902,6 @@ export const informacoes = [
 
           <li>
             Exame médico (Information Sheet) realizado por um médico cadastrado ao consulado. 
-            A lista de médicos pode ser consultada clicando aqui . No nosso blog, 
-            temos uma página dedicada ao assunto. Clique aqui para ler!
           </li>
 
           <li>
@@ -931,37 +920,38 @@ export const informacoes = [
           </li>
 
           <li>
-            Para empregados: holerites dos últimos 3 meses do solicitante ou patrocinador;
+            <strong>Empregados:</strong> holerites dos últimos 3 meses do solicitante ou patrocinador;
           </li>
 
           <li>
-            Para empregadores: contrato social e pró-labores (ou decores) 
+            <strong>Empregador:</strong> contrato social e pró-labores (ou decores) 
             dos últimos 3 meses do solicitante ou patrocinador;
           </li>
           
           <li>
-            Para estudantes: declaração de matrícula da escola;
+            <strong>Estudante:</strong> declaração de matrícula da escola;
           </li>
 
           <li>
-            Para aposentado: Últimos 3 comprovantes de recebimento do INSS;
-          </li>
-          
-          <li>
-            Se houver amigos ou parentes no Canadá: carta convite e comprovação de status do convidador;
+            <strong>Aposentado:</strong> últimos 3 comprovantes de recebimento do INSS;
           </li>
 
           <li>
-            Para cursos de idiomas de até 6 meses: carta de aceitação do curso (LOA);
+            <strong>Cursos de idioma (até 6 meses)</strong>: carta de aceitação do curso (LOA);
           </li>
           
           <li>
-            Para menores desacompanhados: autorização de viagem assinada pelos pais 
+            <strong>Menores Desacompanhados:</strong> autorização de viagem assinada pelos pais 
             com firma reconhecida em cartório;
           </li>
 
           <li>
-            Para menores desacompanhados: carta de custódia emitida por um tutor no Canadá;
+            <strong>Menores Desacompanhados:</strong> carta de custódia 
+            emitida por um tutor no Canadá;
+          </li>
+
+          <li>
+            Se houver amigos ou parentes no Canadá: carta convite e comprovação de status do convidador;
           </li>
           
           <li>
@@ -981,17 +971,13 @@ export const informacoes = [
         </p>
 
         <p>
-          OBS: menores de 14 anos, maiores de 79 anos e solicitantes 
+          <strong>Atenção:</strong> menores de 14 anos, maiores de 79 anos e solicitantes 
           de um visto de trânsito com destino aos EUA estão isentos da coleta biométrica.
         </p>
 
         <p>
-          OBS: antes de iniciar essa solicitação, o aluno deverá ter obtido o seu 
+          <strong>Atenção:</strong> antes de iniciar essa solicitação, o aluno deverá ter obtido o seu 
           Information Sheet junto a um médico credenciado ao consulado canadense.
-        </p>
-
-        <p>
-          Prazo estimado: 12 semanas a partir da biometria
         </p>
       </div>      
     `

@@ -11,9 +11,6 @@ export function criarFooterHTML() {
         <i class="fa-brands fa-whatsapp footer-icons"></i>
 
         <i class="fa-brands fa-instagram footer-icons"></i>
-
-        <i class="fa-brands fa-facebook-f footer-icons-facebook"></i>
-
         
       </div>
     </div>
@@ -28,7 +25,7 @@ export function criarFooterHTML() {
           <i class="fa-solid fa-phone footer-contato-icons"></i>
 
           <div class="contato-texto">
-            +55 11 99999-9999
+            +55 11 94334-4192
           </div>
         </div>
         
