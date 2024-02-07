@@ -14,6 +14,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
 
+  <!-- Link só para não aparecer o erro lá no inspecionar html -->
+  <link rel="shortcut icon" href="#">
+
   <!-- Estilos Próprios -->
   <!-- Estilos Gerais   -->
   <link rel="stylesheet" href="styles/geral.css">
@@ -30,18 +33,20 @@
 
   <main id="main" class="main">
 
-    <div class="carrossel-requisitos">
-      <div class="wrapper js-wrapper"></div>
+    <div class="informacoes-buttons">
+      <i id="anterior" class="fa-solid fa-chevron-left anterior-button js-anterior-button"></i>
+
+      <i id="proximo" class="fa-solid fa-chevron-right proximo-button js-proximo-button"></i>
     </div>
 
-    <a class="formulario-button" href="formulario.html">
-      Link para o Formulário
-    </a>
+    <div class="carrossel-requisitos">
+      <div id="wrapper" class="wrapper js-wrapper"></div>
+    </div>
     
   </main>
 
   <footer class="footer js-footer"></footer>
   
-  <script type="module" src="scripts/canada.js"></script>
+  <script type="module" src="scripts/informacoes.js"></script>
 </body>
 </html>

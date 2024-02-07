@@ -85,19 +85,19 @@ function criarGridHTML() {
         <div id="wrapper-${pais.id}" class="wrapper-imagens">
 
           <div class="imagem-container">
-            <a href="${pais.id}.html">
+            <a href="informacoes.html?pais=${pais.id}&posicao=0">
               <img src="${pais.imagem_turismo}">
             </a>
           </div>
       
           <div class="imagem-container">
-            <a href="${pais.id}.html">
+            <a href="informacoes.html?pais=${pais.id}&posicao=1">
               <img src="${pais.imagem_negocios}">
             </a>
           </div>
       
           <div class="imagem-container">
-            <a href="${pais.id}.html">
+            <a href="informacoes.html?pais=${pais.id}&posicao=2">
               <img src="${pais.imagem_estudos}">
             </a>
           </div>  
