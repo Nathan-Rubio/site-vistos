@@ -53,3 +53,29 @@
 .proximo-button {
   right: 10px;
 }
+
+.owl-dots {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 54%;
+  width: 100vw;
+  gap: 5px;
+}
+
+.owl-dots button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+  outline: none;
+  background: var(--branco);
+  margin: 0 3px;
+  transition-duration: 0.5s;
+}
+
+.owl-dots button.ativo {
+  background-color: var(--secundaria);
+  transform: translateY(-3px);
+}

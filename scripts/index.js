@@ -4,6 +4,25 @@ import { criarFooterHTML } from "./footer.js";
 
 // FUNÇÕES //
 
+// atualiza qual dot vai ser ativado
+function atualizarDots(index) {
+  const dots = document.getElementById(`owl-dots`);
+  const buttons = dots.querySelectorAll('button');
+
+  buttons.forEach((dot, i) => {
+    if (i === index) {
+      dot.classList.add('ativo');
+    } else {
+      dot.classList.remove('ativo');
+    }
+  });
+}
+
+// Inicializa os dots no indice 0
+function InicializarDots() {
+  atualizarDots(0);
+}
+
 // Adiciona o movimento do carrossel de imagens no grid
 function adicionarEventoImagemButtons() {
   const anteriorButton = document.querySelector('.js-anterior-button');
@@ -11,12 +30,15 @@ function adicionarEventoImagemButtons() {
   anteriorButton.addEventListener('click', () => {
     const wrapper = document.getElementById('wrapper');
     const screenWidth = window.innerWidth;
+    const index = Math.max(0, Math.round((wrapper.scrollLeft / screenWidth) - 1));
 
     wrapper.scrollTo({
       left: wrapper.scrollLeft - screenWidth,
       top: 0,
       behavior: "smooth"
     });
+
+    atualizarDots(index);
   });
 
   const proximoButton = document.querySelector('.js-proximo-button');
@@ -24,12 +46,15 @@ function adicionarEventoImagemButtons() {
   proximoButton.addEventListener('click', () => {
     const wrapper = document.getElementById('wrapper');
     const screenWidth = window.innerWidth;
+    const index = Math.min(1, Math.round((wrapper.scrollLeft / screenWidth) + 1));
 
     wrapper.scrollTo({
       left: wrapper.scrollLeft + screenWidth,
       top: 0,
       behavior: "smooth"
     });
+
+    atualizarDots(index);
   });
 }
 
@@ -61,6 +86,12 @@ function criarGridHTML() {
             <i class="fa-solid fa-chevron-right proximo-button js-proximo-button"></i>
           </div>
         </div>
+
+        <div id="owl-dots" class="owl-dots">
+            <button></button>
+
+            <button></button>
+        </div>
     </div>
   `;
 }
@@ -76,3 +107,4 @@ criarGridHTML();
 criarFooterHTML();
 adicionarEventoNavMenu();
 adicionarEventoImagemButtons();
+InicializarDots();
