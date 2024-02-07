@@ -16,8 +16,8 @@ export function criarHeaderHTML() {
         <a href="vistos.html">
           <li>VISTOS</li>
         </a>
-        <a href="cidadania.html">
-          <li>CIDADANIA</li>
+        <a href="cidadanias.html">
+          <li>CIDADANIAS</li>
         </a>
       </ul>
     </header>
