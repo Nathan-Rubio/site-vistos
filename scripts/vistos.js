@@ -29,6 +29,7 @@ function InicializarDots() {
 
 // Adiciona o movimento do carrossel de imagens no grid
 function adicionarEventoImagemButtons() {
+  // Movimento para a imagem anterior
   document.querySelectorAll('.js-anterior-button').forEach((button) => {
     button.addEventListener('click', () => {
       const id = button.id;
@@ -48,6 +49,7 @@ function adicionarEventoImagemButtons() {
     });
   });
 
+  // Movimento para a próxima imagem
   document.querySelectorAll('.js-proximo-button').forEach((button) => {
     button.addEventListener('click', () => {
       const id = button.id;

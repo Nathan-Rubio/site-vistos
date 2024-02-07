@@ -7,6 +7,7 @@
 
 .wrapper {
   display: flex;
+  overflow: hidden;
 }
 
 .container-informacoes {
@@ -16,6 +17,7 @@
   border: 1px solid var(--principal);
   border-radius: 5px;
   margin-left: 5vw;
+  margin-right: 5vw;
   min-width: 90vw;
   box-sizing: border-box;
 }
@@ -52,6 +54,32 @@
 
 .lista li {
   margin: 2vh;
+}
+
+.informacoes-buttons {
+  position: absolute;
+  top: 30%;
+}
+
+.anterior-button,
+.proximo-button {
+  position: fixed;
+  font-size: 22px;
+  padding: 15px 9px 15px 9px;
+  background-color: var(--secundaria);
+  color: var(--branco);
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.anterior-button {
+  border-radius: 0 10px 10px 0;
+  left: 0;
+}
+
+.proximo-button {
+  border-radius: 10px 0 0 10px;
+  right: 0;
 }
 
 .formulario-button {

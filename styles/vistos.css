@@ -105,3 +105,16 @@
   height: 20px;
   background-color: var(--secundaria);
 }
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1200px) {
+  .container-pais {
+    width: 90vw;
+    height: 500px;
+  }
+
+  .container-pais img {
+    height: 500px;
+  }
+}

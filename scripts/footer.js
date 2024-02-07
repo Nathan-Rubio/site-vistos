@@ -7,11 +7,30 @@ export function criarFooterHTML() {
         REDES SOCIAIS
       </div>
 
-      <div class="container-icons">
-        <i class="fa-brands fa-whatsapp footer-icons"></i>
+      <div class="container-redes-sociais">
+        <div class="rede-social">
+          <a href=#>
+            <i class="fa-brands fa-whatsapp footer-rede-social-icons"></i>
+          </a>
 
-        <i class="fa-brands fa-instagram footer-icons"></i>
+          <a href=#>
+            <div class="texto">
+              WhatsApp
+            </div>
+          </a>
+        </div>
         
+        <div class="rede-social">
+          <a href=#>
+            <i class="fa-brands fa-instagram footer-rede-social-icons"></i>
+          </a>        
+
+          <a href=#>
+            <div class="texto">
+              Instagram
+            </div>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -24,7 +43,7 @@ export function criarFooterHTML() {
         <div class="contato">
           <i class="fa-solid fa-phone footer-contato-icons"></i>
 
-          <div class="contato-texto">
+          <div class="texto">
             +55 11 94334-4192
           </div>
         </div>
@@ -32,7 +51,7 @@ export function criarFooterHTML() {
         <div class="contato">
           <i class="fa-solid fa-envelope footer-contato-icons"></i>
 
-          <div class="contato-texto">
+          <div class="texto">
             splendor@gmail.com
           </div>
         </div>

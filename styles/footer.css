@@ -31,32 +31,17 @@
   margin-left: 10px;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   gap: 10px;
 }
 
-.footer-icons,
-.footer-icons-facebook {
-  border-radius: 50%;
-  padding: 10px;
-  font-size: 20px;
-  color: var(--principal);
-  background-color: var(--branco);
-  cursor: pointer;
-  transition-duration: 0.5s;
-}
-
-.footer-icons-facebook {
-  padding-right: 13px;
-  padding-left: 13px;
-}
-
-.footer-icons:hover,
-.footer-icons-facebook:hover {
+.footer-icons:hover {
   color: var(--secundaria);
 }
 
-.container-contatos {
+.container-contatos,
+.container-redes-sociais {
   margin-left: 10px;
   display: flex;
   flex-direction: column;
@@ -64,8 +49,20 @@
   gap: 10px;
 }
 
-.contato {
+.contato,
+.rede-social {
   display: flex;
+  align-items: center;
+}
+
+.footer-rede-social-icons {
+  font-size: 24px;
+  color: var(--branco);
+  transition-duration: 0.5s;
+}
+
+.footer-rede-social-icons:hover {
+  color: var(--secundaria);
 }
 
 .footer-contato-icons {
@@ -83,9 +80,17 @@
   color: var(--secundaria);
 }
 
-.contato-texto {
+.footer-redes-sociais a {
+  text-decoration: none;
+}
+
+.texto {
   margin-left: 6px;
   font-family: 'Barlow', sans-serif;
   font-size: 14px;
   color: var(--branco);
+}
+
+.texto:hover {
+  color: var(--secundaria);
 }
