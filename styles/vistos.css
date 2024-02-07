@@ -44,13 +44,13 @@
 }
 
 .imagens-buttons {
-  position: absolute;
-  top: 50%;
+  display: flex;
 }
 
 .anterior-button,
 .proximo-button {
   position: absolute;
+  top: 50%;
   font-size: 22px;
   padding: 6px 9px 6px 9px;
   opacity: 0.5;
@@ -71,7 +71,7 @@
 }
 
 .proximo-button {
-  left: 90vw;
+  left: calc(100vw - 42px);
 }
 
 .owl-dots {
@@ -106,15 +106,86 @@
   background-color: var(--secundaria);
 }
 
-/* DESKTOP */
+/* TABLET */
+@media screen and (min-width: 600px) {
+  
+}
 
-@media only screen and (min-width: 1200px) {
-  .container-pais {
-    width: 90vw;
-    height: 500px;
+/* LAPTOP */
+@media screen and (min-width: 769px) {
+  .grid {
+    gap: 12vh;
   }
 
-  .container-pais img {
-    height: 500px;
+  .container-pais {
+    height: 600px;
+  }
+
+  .wrapper-imagens img {
+    height: 540px;
+  }
+
+  .anterior-button,
+  .proximo-button {
+    font-size: 26px;
+    padding: 8px 12px 8px 12px;
+  }
+
+  .proximo-button {
+    left: calc(100vw - 60px);
+  }
+
+  .pais-footer {
+    height: 30px;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1025px) {
+  .grid {
+    gap: 15vh;
+  }
+
+  .container-pais {
+    height: 800px;
+  }
+
+  .wrapper-imagens img {
+    height: 700px;
+  }
+
+  .anterior-button,
+  .proximo-button {
+    font-size: 28px;
+    padding: 10px 14px 10px 14px;
+  }
+
+  .proximo-button {
+    left: calc(100vw - 60px);
+  }
+
+  .pais-footer {
+    height: 30px;
+  }
+}
+
+/* GRANDES TELAS */
+@media screen and (min-width: 1200px) {
+  .container-pais {
+    height: 120vh;
+  }
+
+  .wrapper-imagens img {
+    height: 110vh;
+  }
+
+  .anterior-button,
+  .proximo-button {
+    font-size: 32px;
+    padding: 12px 16px 12px 16px;
+  }
+
+  .proximo-button {
+    left: calc(100vw - 75px);
   }
 }

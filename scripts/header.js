@@ -10,9 +10,18 @@ export function criarHeaderHTML() {
         <a href="index.html">
           <img class="nav-logo" src="imagens/logo.png" alt="logo">
         </a>
+
+        <ul id="nav-menu-desktop" class="nav-menu-desktop">
+          <a href="vistos.html">
+            <li>VISTOS</li>
+          </a>
+          <a href="cidadanias.html">
+            <li>CIDADANIAS</li>
+          </a>
+        </ul>
       </nav>
 
-      <ul id="nav-menu" class="nav-menu">
+      <ul id="nav-menu-mobile" class="nav-menu-mobile">
         <a href="vistos.html">
           <li>VISTOS</li>
         </a>
@@ -27,7 +36,7 @@ export function criarHeaderHTML() {
 // Adiciona o abrir e fechar do menu de navegação
 export function adicionarEventoNavMenu() {
   document.querySelector('.js-icone-menu').addEventListener('click', () => {
-    const menu = document.getElementById('nav-menu');
+    const menu = document.getElementById('nav-menu-mobile');
     const main = document.getElementById('main');
   
     // Abre o menu

@@ -11,7 +11,6 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 260px;
   overflow: hidden;
 }
 
@@ -22,17 +21,17 @@
 
 .wrapper-imagens img {
   width: 100vw;
-  height: 260px;
+  height: 50vh;
 }
 
 .imagens-buttons {
-  position: absolute;
-  top: 50%;
+  display: flex;
 }
 
 .anterior-button,
 .proximo-button {
   position: absolute;
+  top: 50%;
   font-size: 22px;
   padding: 6px 9px 6px 9px;
   opacity: 0.5;
@@ -43,17 +42,17 @@
   transition-duration: 0.5s;
 }
 
-.anterior-button:hover,
-.proximo-button:hover {
-  opacity: 0.9;
-}
-
 .anterior-button {
   left: 2vw;
 }
 
 .proximo-button {
-  left: 90vw;
+  left: calc(100vw - 42px);
+}
+
+.anterior-button:hover,
+.proximo-button:hover {
+  opacity: 0.9;
 }
 
 .owl-dots {
@@ -80,4 +79,41 @@
 .owl-dots button.ativo {
   background-color: var(--secundaria);
   transform: translateY(-3px);
+}
+
+/* TABLET */
+@media screen and (min-width: 600px) {
+  
+}
+
+/* LAPTOP */
+@media screen and (min-width: 769px) {
+
+  .wrapper-imagens img {
+    height: 450px;
+  }
+
+  .anterior-button,
+  .proximo-button {
+    font-size: 26px;
+    padding: 8px 12px 8px 12px;
+  }
+
+  .proximo-button {
+    left: calc(100vw - 60px);
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1025px) {
+  .wrapper-imagens img {
+    height: 620px;
+  }
+}
+
+/* GRANDES TELAS */
+@media screen and (min-width: 1200px) {
+  .wrapper-imagens img {
+    height: 100vh;
+  }
 }

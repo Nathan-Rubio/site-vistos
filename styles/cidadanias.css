@@ -40,3 +40,29 @@
 .container-cidadania button:hover {
     background-color: var(--secundaria-mais-escura);
 }
+
+/* TABLET */
+@media screen and (min-width: 600px) {
+  
+}
+
+/* LAPTOP */
+@media screen and (min-width: 769px) {
+    .container-cidadania img {
+        height: 400px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1025px) {
+    .container-cidadania img {
+        height: 500px;
+    }
+}
+
+/* GRANDES TELAS */
+@media screen and (min-width: 1200px) {
+    .container-cidadania img {
+        height: 70vh;
+    }
+}

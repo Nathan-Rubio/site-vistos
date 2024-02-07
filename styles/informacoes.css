@@ -98,3 +98,23 @@
   color: var(--branco);
   background-color: var(--principal);
 }
+
+/* TABLET */
+@media screen and (min-width: 600px) {
+  
+}
+
+/* LAPTOP */
+@media screen and (min-width: 769px) {
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1025px) {
+  
+}
+
+/* GRANDES TELAS */
+@media screen and (min-width: 1200px) {
+  
+}
