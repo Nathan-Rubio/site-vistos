@@ -80,11 +80,12 @@ function criarGridHTML() {
 
           ${imagemHTML}
 
-          <div class="imagens-buttons">
-            <i class="fa-solid fa-chevron-left anterior-button js-anterior-button"></i>
+        </div>
 
-            <i class="fa-solid fa-chevron-right proximo-button js-proximo-button"></i>
-          </div>
+        <div class="imagens-buttons">
+          <i class="fa-solid fa-chevron-left anterior-button js-anterior-button"></i>
+
+          <i class="fa-solid fa-chevron-right proximo-button js-proximo-button"></i>
         </div>
 
         <div id="owl-dots" class="owl-dots">

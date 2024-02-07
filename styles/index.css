@@ -7,10 +7,12 @@
 }
 
 .container-pais {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100vw;
   height: 260px;
+  overflow: hidden;
 }
 
 .wrapper-imagens {
@@ -24,8 +26,8 @@
 }
 
 .imagens-buttons {
-  display: flex;
-  align-items: center;
+  position: absolute;
+  top: 50%;
 }
 
 .anterior-button,
@@ -47,18 +49,18 @@
 }
 
 .anterior-button {
-  left: 10px;
+  left: 2vw;
 }
 
 .proximo-button {
-  right: 10px;
+  left: 90vw;
 }
 
 .owl-dots {
   position: absolute;
   display: flex;
   justify-content: center;
-  top: 54%;
+  top: 92%;
   width: 100vw;
   gap: 5px;
 }
