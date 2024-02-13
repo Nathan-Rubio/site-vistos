@@ -19,9 +19,24 @@
   overflow: hidden;
 }
 
+.imagem-container {
+  position: relative;
+}
+
 .wrapper-imagens img {
   width: 100vw;
-  height: 50vh;
+  height: 30vh;
+}
+
+.texto-img {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  color: white;
+  font-size: 10vw;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
 }
 
 .imagens-buttons {

@@ -69,6 +69,7 @@ function criarGridHTML() {
       <div class="imagem-container">
         <a href="${item.id}.html">
           <img src="${item.imagem}">
+          <div class="texto-img">${item.nome}</div>
         </a>
       </div>
     `;

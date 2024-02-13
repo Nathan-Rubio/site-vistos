@@ -3,7 +3,7 @@ export const paisesVistos = [
     id: "china",
     nome: "China",
     imagem_turismo: "imagens/china_turismo.png",
-    imagem_negocios: "imagens/china_negocios.png",
+    imagem_negocios: "imagens/china_negocios.jpg",
     imagem_estudos: "imagens/china_estudos.png"
   },
   {

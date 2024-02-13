@@ -38,9 +38,24 @@
   overflow: hidden;
 }
 
+.imagem-container {
+  position: relative;
+}
+
 .wrapper-imagens img {
   width: 100vw;
   height: 250px;
+}
+
+.texto-img {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  color: white;
+  font-size: 38PX;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
 }
 
 .imagens-buttons {
@@ -154,6 +169,10 @@
     height: 700px;
   }
 
+  .texto-img {
+    font-size: 100px;
+  }
+
   .anterior-button,
   .proximo-button {
     font-size: 28px;
@@ -177,6 +196,10 @@
 
   .wrapper-imagens img {
     height: 110vh;
+  }
+
+  .texto-img {
+    font-size: 120px;
   }
 
   .anterior-button,

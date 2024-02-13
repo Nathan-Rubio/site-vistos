@@ -1,12 +1,12 @@
 export const bannerIndex = [
   {
     id: "vistos",
-    nome: "Vistos",
+    nome: "VISTOS",
     imagem: "imagens/passports.png"
   },
   {
     id: "cidadanias",
-    nome: "Cidadanias",
+    nome: "CIDADANIAS",
     imagem: "imagens/flags.png"
   }
 ]
