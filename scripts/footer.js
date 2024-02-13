@@ -8,17 +8,6 @@ export function criarFooterHTML() {
       </div>
 
       <div class="container-redes-sociais">
-        <div class="rede-social">
-          <a href=#>
-            <i class="fa-brands fa-whatsapp footer-rede-social-icons"></i>
-          </a>
-
-          <a href=#>
-            <div class="texto">
-              WhatsApp
-            </div>
-          </a>
-        </div>
         
         <div class="rede-social">
           <a href=#>
